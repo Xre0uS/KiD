@@ -81,10 +81,7 @@ and wait for the victim machine to connect.
 Once the keyboard is plugged into the victim machine, assuming network configurations are correct and it is not intercepted by antivirus, a reverse shell should be opened and we will have control of the victim machine.   
 
 ## Remote desktop
-To be able to control the vimctim's machine remotely, an admin powershell is needed.   
-...
-
-The code to flash to Digispark will be different but the remaining steps after flashing will be the same as we have [laid out earlier](#Delivering-the-payload).
+see RDP.md
 
 ## Antivirus evasion
 
