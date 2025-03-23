@@ -26,7 +26,7 @@ By default, the Digispark have a 5 second programming delay once plugged in for 
 
 The bootloader can be found [here](https://github.com/micronucleus/micronucleus/tree/v1.11/upgrade/releases) under the name `micronucleus-1.11-entry-jumper-pb0-upgrade.hex`, the program to fash the bootloader can be found [here](https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-win.zip).
 
-To flash the firmware, unzip the micronucleus folder, in a command prompt, ender the full path of micronucleus.exe, followed by the full path of the bootloader hex file, then plug in Digispark to the the computer.
+To flash the firmware, unzip the micronucleus folder, in a command prompt, enter the full path of micronucleus.exe, followed by the full path of the bootloader hex file, then plug in Digispark to the the computer.
 
 Ater the bootloader is flashed, the delay should be removed. To program digispark after flashing to the new bootloader, bridge the GND and P0 pins on Digispark with a conductive wire when uploading new code.
 
