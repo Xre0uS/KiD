@@ -35,8 +35,12 @@
     
     `(Get-WmiObject -class "Win32_TSGeneralSetting" -Namespace root\cimv2\terminalservices -ComputerName $ComputerName -Filter "TerminalName='RDP-tcp'").UserAuthenticationRequired`
     
-    If "1" is returned, it means NLA is on.
-    If "0" is returned, it means NLA is off.
+    
+    **If "1" is returned, it means NLA is on.**
+    
+    
+    **If "0" is returned, it means NLA is off.**
+    
     
     Image is seen below:
 
@@ -70,17 +74,13 @@
 
     ![alt text](resources/rpc_images/connectedRPC.PNG)
     
-    - If you do not know the Username, run the command `net user` in the Powershell
+    **- If you do not know the Username, run the command `net user` in the Powershell**
     
      Image is seen below:
 
      ![alt text](resources/rpc_images/net_user.PNG)
     
-    - If you do not know the Username's Password, hashdump will be required.
-    
-      
-        
-     
+    **- If you do not know the Username's Password, hashdump will be required.**
     
     
 7. Once you have finished with everything, to reactivate the Network Level Authentication(NLA).
