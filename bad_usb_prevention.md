@@ -81,7 +81,7 @@ Use task manager to detect keylogger
 
 ![task manager](https://user-images.githubusercontent.com/82925962/122172446-537b7600-ceb3-11eb-9bb3-1f287e7b96b1.jpg)
 
-Navigate to Windows logon applicaiton, if it has duplication entry which sound unsual like Windows logon (1) it mean someone else is logon to your Windows system so right click and end the program.
+Navigate to Windows logon application, if it has duplication entry which sound unusual like Windows logon (1) it mean someone else is logon to your Windows system so right click and end the program.
 
 ![task manager3](https://user-images.githubusercontent.com/82925962/122174039-f7b1ec80-ceb4-11eb-9216-1a2af023d4a8.jpg)
 
