@@ -108,12 +108,15 @@ Although many antivirus solutions can be evaded as of writing, we expect this sp
 ![netstat1](https://user-images.githubusercontent.com/82925962/122866271-3d116680-d35a-11eb-882d-9f952a24f4b4.jpg)
 
 **To check all the connections:** Netstat -a
+
 ![netstat2](https://user-images.githubusercontent.com/82925962/122868367-73041a00-d35d-11eb-8223-f83b597384e4.jpg)
 
 **You want to know which applications is connected to the internet:** Netstat -b
+
 ![netstat3](https://user-images.githubusercontent.com/82925962/122868377-75667400-d35d-11eb-9f93-3723b0ae0237.jpg)
 
-**To know the process Id type:** Netstat -bno
+**To know the process Id type:** Netstat -
+
 ![netstat4](https://user-images.githubusercontent.com/82925962/122868385-77c8ce00-d35d-11eb-84c1-21c349e28252.jpg)
 
 **Ip lookup:** To know which connection is the keylooger you need to look in the ip address lookup manully, search ip address by google to get the clear idea. Similarly search by the application name to know which applications is working as rat/keylogger.
@@ -121,6 +124,7 @@ Although many antivirus solutions can be evaded as of writing, we expect this sp
 ![ip lookup2](https://user-images.githubusercontent.com/82925962/122866394-6f22c880-d35a-11eb-9bed-84fef40ab8cb.jpg)
 
 **Search by application name:** To know which applications is working as rat/keylogger
+
 ![application](https://user-images.githubusercontent.com/82925962/122868821-12291180-d35e-11eb-82d0-85698adcde8e.jpg)
 
 **One of the recommandation for Anti-malware**
