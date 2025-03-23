@@ -6,7 +6,7 @@ void setup() {
   //blank screen and start cmd
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(60);
-  DigiKeyboard.println("cmd start /wait scrnsave.scr /s && rundll32 user32.dll");
+  DigiKeyboard.println("cmd /c start scrnsave.scr /s && rundll32 user32.dll");
   DigiKeyboard.delay(60);
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(60);
