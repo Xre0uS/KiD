@@ -2,6 +2,8 @@
 
 ## all payloads here points to host 192.168.0.10:4444
 
+### Warning: Downloading items here will likely trigger alerts with your antivirus programs, do so in a controlled enviroment. Executing files here technically should post no harm since they only connet to a prive IP, again, do so in a controlled enviroment.
+
 `kib_keyboard.ps1` is a powershell script that disables windows defender and notifications, then downloads the actual payload.
 
 ### payload descriptions (files denoted with X is detected by windows defender):
