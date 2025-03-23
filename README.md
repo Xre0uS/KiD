@@ -14,3 +14,6 @@
 
 3. DigiSpark with Arduino ATtiny85 microprocessor  
 ![alt text](resources/digispark.jpg)
+
+We want to use digispark to delivery the payload while still keeping the keyboard functional, so a usb hub is needed.
+The internal keyboard PCB is connected to the usb hub, and digispark is also connected to up. The upstream port of the usb hub is what will be conneted to the computer.
