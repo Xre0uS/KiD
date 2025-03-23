@@ -39,3 +39,5 @@ Defend against attackers: https://securelist.com/keyloggers-how-they-work-and-ho
 https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceinstanceids
 
 https://www.webroot.com/us/en/resources/tips-articles/keyloggers-explained
+
+https://www.malwarebytes.com/premium
