@@ -6,7 +6,7 @@
 1. `shell.exe` is a generic tcp reverse shell. X
 2. `bkbx64.exe` is a x64 tcp reverse shell encoded in a custom c++ payload. X
 3. `bkbx86.exe` is a x86 tcp reverse shell encoded in a custom c++ payload. X
-4. `bkbpayload.ll` and `bkbpayloadraw.cs` are XOR encoded tcp revershell written in a custom C# payload that uses a powershell file to download and execute in memory.
+4. `bkbpayload.ll` and `bkbpayloadraw.cs` are XOR encoded tcp revershell written in a custom C# payload that uses a powershell file to download and execute in memory. (doesn't work)
 5. `test1.exe` is a tcp reverse shell encoded in custom python payload. X 
 6. `testing9.exe` is a edited tcp reverse shell created using veil before changing from .bat to .exe. X
 7. `c_rtcp.exe` is a tcp reverse shell written in C. X
