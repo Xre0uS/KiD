@@ -28,7 +28,7 @@ The bootloader can be found [here](https://github.com/micronucleus/micronucleus/
 
 To flash the firmware, unzip the micronucleus folder, in a command prompt, ender the full path of micronucleus.exe, followed by the full path of the bootloader hex file, then plug in Digispark to the the computer.
 
-Ater the bootloader is flashed, the delay should be removed. To program digispark with the new bootloader, bridge the GND and P0 pins on Digispark with a conductive wire when uploading new code.
+Ater the bootloader is flashed, the delay should be removed. To program digispark after flashing to the neew bootloader, bridge the GND and P0 pins on Digispark with a conductive wire when uploading new code.
 
 ## Hiding Digispark's name
 libraries\DigisparkKeyboard\usbconfig.h
