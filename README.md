@@ -110,10 +110,11 @@ The code to flash to Digispark will be different but the remaining steps after f
 
 **Bitdefender Antivirus Free Edition:**  We were not able to evade Bitdefender Antivirus Free Edition.  
 
-**McAfee LiveSafe:** McAfee LiveSafe can be evaded.
+**McAfee LiveSafe:**  McAfee LiveSafe can be evaded.
 ![alt text](resources/mcafee_evasion.png)    
 
-**Avira:**  
+**Avira:**  Avira antivirus can be evaded.
+![alt text](resources/avira_evasion.png)    
 
 We were not able to test Norton because credit card information is required to start the free trail.   
 
