@@ -18,6 +18,8 @@
 We want to use Digispark to delivery the payload while still keeping the keyboard functional, so a usb hub is needed.
 The internal keyboard PCB is connected to the usb hub, and digispark is also connected to up. The upstream port of the usb hub is what will be conneted to the computer.
 
+<insert completed internal wiring with label here>
+
 ## Digispark bootloader
 
 By default, the Digispark have a 5 second programming delay once plugged in for uploading new code. This has caused issues for Windows to fail to recognise Digispark as a USB device when it is conected to the hub with another keyboard, a new bootloader is needed to remove the delay, removing the delay also allows the attack to be carred out faster.
