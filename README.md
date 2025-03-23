@@ -156,7 +156,7 @@ To better protect your computer most of the Antivirus Software need to buy. [Ref
 
 **Use task manager to detect keylogger:** Navigate to Windows logon application, if it has duplication entry which sound unusual like Windows logon (1) it mean someone else is logon to your Windows system so right click and end the program.
 
-Also check under Start up tab to see if any suspicious-looking programs in the boot menu, disable them
+Also check under **Startup** tab to see if any suspicious-looking programs in the boot menu, disable them
 
 ![task manager3](https://user-images.githubusercontent.com/82925962/122867541-43a0dd80-d35c-11eb-90a7-a5686fe2af84.jpg)
 
