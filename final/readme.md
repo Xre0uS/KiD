@@ -1,5 +1,6 @@
 # Folder with all the final payload/scripts
 
+### Warning: Downloading items here will likely trigger alerts with your antivirus programs, do so in a controlled enviroment. Executing files here technically should post no harm since they only connet to a prive IP, again, do so in a controlled enviroment.
 Items:
 1. ```digispark.cpp``` digispark code for the attack, this version does not get admin privileges.
 2. ```1.ps1``` first stage of the attack, download the payload and run it, deletes the payload after process migration is complete.
