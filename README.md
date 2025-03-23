@@ -162,7 +162,7 @@ Also check under Start up tab to see if any suspicious-looking programs in the b
 
 ![control panel](https://user-images.githubusercontent.com/82925962/122867751-91b5e100-d35c-11eb-9ed5-5cf9173bed32.jpg)
 
-**To prevent unauthorised usb device:** Run Local Group Policy Editor (gpedit) expand Administrative Templates -> expand System -> Device Installation Restrictions and configure the settings to prevent unauthorised usb device.
+**To prevent unauthorised usb device:** Run Local Group Policy Editor (gpedit) -> expand Administrative Templates -> expand System -> Device Installation Restrictions and configure the settings to prevent unauthorised usb device.
 
 ![usb](https://user-images.githubusercontent.com/82925962/123115189-7dfc9e80-d472-11eb-9663-948c0930f0a2.jpg)
 
