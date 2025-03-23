@@ -7,6 +7,6 @@
 
 # Parts used
 1. Standard usb keyboard 
-![alt text](resources/keyboard_new.jpeg)
+![alt text](resources/keyboard_new.jpg)
 
 2. sdf
