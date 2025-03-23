@@ -14,7 +14,7 @@ We want to use Digispark to deliver the payload while still keeping the keyboard
 The internal keyboard PCB is connected to the USB hub, and digispark is also connected to up. The upstream port of the USB hub is what will be connected to the computer.
 ![alt text](resources/circuit_blueprint.png)
 
-The internal connections and layout of the completed keyboard is as follows:
+The internal connections and layout of the completed keyboard are as follows:
 ![alt text](resources/keyboard_internal.png)
 
 ## Digispark bootloader
