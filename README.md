@@ -19,7 +19,7 @@ The internal connections and layout of the completed keyboard are as follows:
 
 ## Programming Digispark
 
-To program Digispark to deliver the keystrokes we wanted, we need an IDE to write to Digispark. We can use either the Arduino IDE or the PIO extenstion in Visual Studio Code. After the desired code are written into the IDE, press the upload button in the IDE and connect Digispark into the computer. The sorce code of the Digispark keystrokes will be explained at a later section.
+To program Digispark to deliver the keystrokes we wanted, we will need an IDE to write to Digispark. We can use either the Arduino IDE or the PIO extenstion in Visual Studio Code. After the desired code is written into the IDE, press the upload button in the IDE and connect Digispark into the computer. The sorce code of the Digispark keystrokes will be explained at a later section.
 
 ## Digispark bootloader
 
