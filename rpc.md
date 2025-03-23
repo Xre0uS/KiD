@@ -17,7 +17,9 @@
 3. In the Powershell, 
   You need to establish the Variable of the Name of the System.
   Codes :-
-  
+    
+    `shell`
+    `powershell`
     `$ComputerName = " NAME SEEN IN SYSINFO "`
       
 4. Once you have done this, You will need to check if you require Network Level Authentication(NLA).
