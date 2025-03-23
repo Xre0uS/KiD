@@ -54,7 +54,7 @@ memcpy(<target char> + <offset>, <secondary char>, <length of secondary char>)
 ```
 ![alt text](resources/memcpy_demo.png)   
 
-Using the function, we can replace the geninue bytes with dummy bytes, and store the genuine bytes in another string, when the executable runs, the genuine shellcode will then be assembled. The random bytes can be generated using random.org. Windows defender will be our primary antivirus solution to evade, since it's the most common antivirus on a windows computer. Windows defender has gotten very good at recognising signature of the payloads, so more ```memcpy``` functions will have to be used to evade detection.   
+Using the function, we can replace the geninue bytes with dummy bytes, and store the genuine bytes in another string, when the executable runs, the genuine shellcode will then be assembled. The random bytes can be generated using [random.org](https://www.random.org/bytes/), filled and counted using [Cyberchef](https://gchq.github.io/CyberChef/). Windows defender will be our primary antivirus solution to evade, since it's the most common antivirus on a windows computer. Windows defender has gotten very good at recognising signature of the payloads, so more ```memcpy``` functions will have to be used to evade detection.   
 
 In the final payload, the source code can be found under ```final/payload_source.cpp```, the shellcode is broken into 4 parts, each with their own scrambled bytes, and with many extra bytes and strings thrown in between. Each part are individually assembled and the 4 parts are pieced together at the end. After obfuscation is done, build the source code into a ```.exe``` file.
 
