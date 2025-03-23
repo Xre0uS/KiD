@@ -57,9 +57,7 @@ Unfortunately, since windows recently added meterpreter signatures (the toolset 
 ## Delivering the payload
 Kali will be our attacking machine since it offers a wide range of tools, and we will be using the meterpreter framework to control the victim machine.   
 
-To deliver the payload, we chose to use a 2-stage payload, with the first stage being a powershell script ```.ps1``` file, this will give us better control of the attack steps, and reduce the length of commands needed to be entered to the victim's computer. Digispark will contain the keystrokes to start the attack, we first open a hidden powershell window, then download and run the ```.ps1``` file in memory, the source code of Digispark keystrokes can be found under ```final/digispark.cpp```.   
-
-If we want to have remote access to the victim's machine, an admin powershell is needed. , the remaining steps of the attack remains the same.    
+To deliver the payload, we chose to use a 2-stage payload, with the first stage being a powershell script ```.ps1``` file, this will give us better control of the attack steps, and reduce the length of commands needed to be entered to the victim's computer. Digispark will contain the keystrokes to start the attack, we first open a hidden powershell window, then download and run the ```.ps1``` file in memory, the source code of Digispark keystrokes can be found under ```final/digispark.cpp```.      
 
 The first stage of the payload can be found under ```final/1.ps1```, the script downloads the ```.exe``` file that we made earlier and run it, which can be found under ```final/0.exe```. the payload then deletes the ```.exe``` file after it has been run as to not leave any evidence.
 ![alt text](resources/powershell_script.png)   
@@ -74,6 +72,12 @@ msfconsole -q -r /home/kali/kid_msf_auto.rc
 and wait for the victim machine to connect.   
 
 Once the keyboard is plugged into the victim machine, assuming network configurations are correct and it is not intercepted by antivirus, a reverse shell should be opened and we will have control of the victim machine.   
+
+## Remote desktop
+To be able to control the vimctim's machine remotely, an admin powershell is needed.   
+...
+
+The code to flash to Digispark will be different but the remaining steps after flashing will be the same as we have [laid out earlier](#Delivering-the-payload).
 
 ## Antivirus evasion
 **AVG:**  AVG antivirus can be evaded as per the demo video.   
