@@ -1,4 +1,5 @@
 # Keyboard in Disguise (KiD)
+The following is detailed documentation on the steps & resources required to carry out this project and create the deliverables.
 
 ## Parts used
 1. Standard USB keyboard   
