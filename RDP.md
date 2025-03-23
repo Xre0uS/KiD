@@ -101,5 +101,6 @@
     ![alt text](resources/rpc_images/TurnedOnNLA.PNG)
 
  ##Reference
- [Diableing of NLA] (https://social.technet.microsoft.com/Forums/en-US/c07323c2-77fa-4eb4-91ed-7ba6fa23bd00/how-to-disable-nla?forum=winserversecurity)
+ 
+ [Disabling of NLA] (https://social.technet.microsoft.com/Forums/en-US/c07323c2-77fa-4eb4-91ed-7ba6fa23bd00/how-to-disable-nla?forum=winserversecurity)
  
