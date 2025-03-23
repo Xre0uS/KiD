@@ -73,7 +73,7 @@ Similarly search by the application name to know which applications is working a
 
 ![application](https://user-images.githubusercontent.com/82925962/122089481-63567400-ce39-11eb-9307-8434c1565e75.jpg)
 
-To automatically detect keylogger on your system you can install MalwareFox antimalware which is a strong antimalware that can easily catch threats like keyloggers and spyware 
+To automatically detect keylogger on your system you can install MalwareFox anti malware which is a strong antimalware that can easily catch threats like keyloggers and spyware 
 
 ![malwareFox](https://user-images.githubusercontent.com/82925962/122090304-36ef2780-ce3a-11eb-8fbf-bb7cb0aa37d7.jpg)
 
