@@ -33,3 +33,7 @@ https://github.com/tigoe/hid-examples/blob/main/HIDEnable/HIDEnable.ino
 Disable keyboard: https://www.intowindows.com/5-ways-to-disable-keyboard-in-windows-10/
 
 https://www.businessinsider.com/how-to-disable-keyboard-windows-10
+
+Defend against attackers: https://securelist.com/keyloggers-how-they-work-and-how-to-detect-them-part-1/36138/
+
+https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceinstanceids
