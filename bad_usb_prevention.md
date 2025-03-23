@@ -44,7 +44,7 @@ https://www.malwarebytes.com/premium
 
 https://www.malwarefox.com/
 
-Is there a way to bypass keylogger "No", if there is a keylogger on your machine there is no way to know what it's capability are or how you can be absolutely guarantee to bypass it. Why because keylogger is a malware it has a specified behaviour that attempt to log your keystroke most commonly they try to log your keystroke and than share with someone else. Yes, you will bypass some of them but you don't know that you will bypass the one you actually have.
+Is there a way to bypass keylogger "No", if there is a keylogger on your machine there is no way to know what it's capability are or how you can be absolutely guarantee to bypass it. Why because keylogger is a malware it has a specified behaviour that attempt to log your keystroke most commonly they try to log your keystroke and than share with someone else. Yes, you can bypass some of them but you don't know that you will bypass the one you actually have.
 
 Run command prompt as administator
 To display protocol statistic and current TCP/IP network connections.
