@@ -95,3 +95,6 @@ Download keyscrambler : https://www.qfxsoftware.com/
 
 ![keyscrambler](https://user-images.githubusercontent.com/82925962/122230191-fd76f480-ceeb-11eb-9046-23243fc4faa3.jpg)
 
+Control Panel look for suspicous program that you didn't install and uninstall it.
+
+![control panel](https://user-images.githubusercontent.com/82925962/122324826-0b645e00-cf5c-11eb-9fc9-cb8f767b73d6.jpg)
