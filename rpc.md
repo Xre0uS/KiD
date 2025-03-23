@@ -3,7 +3,7 @@
 
 1. Shell Needed Requires Admin Privilege.
 2. Powershell MUST be Used !
-3. You will need the password of the Desktop you are connecting to.
+3. You will need the password of the Desktop you are connecting to save time.
  
 ## Here are the Steps 
 
