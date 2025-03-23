@@ -5,7 +5,7 @@
 [DigiMouse reference](https://github.com/digistump/DigistumpArduino/blob/master/digistump-avr/libraries/DigisparkMouse/DigiMouse.h) 
 (only one can be used at a time)
 
-[payload references](https://github.com/swisskyrepo/PayloadsAllTheThings)
+[payload reference](https://github.com/swisskyrepo/PayloadsAllTheThings)
 
 ## Parts used
 1. Standard usb keyboard   
