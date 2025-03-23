@@ -1,9 +1,10 @@
 ## WARNING
 -DO THIS AT YOUR OWN RISK :) 
 
-1. Shell Needed Requires Admin Privilege.
-2. Powershell MUST be Used !
-3. You will need the password of the Desktop you are connecting to save time.
+1. Please ensure RDP is allowed on this system.(RDP is allowed on Windows Pro Only,Windows Home **Does NOT** support RDP) 
+2. Shell Needed Requires Admin Privilege.
+3. Powershell MUST be Used !
+4. You will need the password of the Desktop you are connecting to save time.
  
 ## Here are the Steps 
 
