@@ -113,6 +113,8 @@ The code to flash to Digispark will be different but the remaining steps after f
 **McAfee LiveSafe:** McAfee LiveSafe can be evaded.
 ![alt text](resources/mcafee_evasion.png)    
 
+**Avira:**  
+
 We were not able to test Norton because credit card information is required to start the free trail.   
 
 Although many antivirus solutions can be evaded as of writing, we expect this specific payload be ineffective soon, as we have used it against many different anitvirus solutions, and they are quick to regonise new payload signatures. However, using different bytes and different layout when obfuscating the shellcode, a new payload with a unique signature can be wrriten and used to evade antivirus solutions.
