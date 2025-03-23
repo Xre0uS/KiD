@@ -5,7 +5,7 @@
 `kib_keyboard.ps1` is a powershell script that disables windows defender and notifications, then downloads the actual payload.
 
 ### payload descriptions (files denoted with X is detected by windows defender):
-1. `kidx86.exe` is a x86 tcp reverse shell writtern in c++ endcoded using shikata_ga_nai, with byte change, scrambled byes, extra dummy bytes and byte order obfuscation. 12/69 hits in [VirusTotal](https://www.virustotal.com/gui/file/f0223b32b6d12ea8414eff31ec673b9438d988532bc6b2623ed1d42215f35803/detection). Able to bypass windows defender.
+1. `kidx86.exe` is a x86 tcp reverse shell writtern in c++ endcoded using shikata_ga_nai, with byte change, scrambled byes, extra dummy bytes and byte order obfuscation. 12/69 hits in [VirusTotal](https://www.virustotal.com/gui/file/f0223b32b6d12ea8414eff31ec673b9438d988532bc6b2623ed1d42215f35803/detection) (when it was first submitted). Able to bypass windows defender.
 2. `kidx86_source.cpp` is the source file of the payload.
 3. `shell.c` is the raw payload from msfvenom.
 4. `shell.exe` is a generic tcp reverse shell. X
