@@ -148,7 +148,7 @@ For better protection need to but MalwareFox Premium for advanced malware detect
 
 ![malwareFox](https://user-images.githubusercontent.com/82925962/122866413-7b0e8a80-d35a-11eb-8fe0-ceb6b9750773.jpg)
 
-**Others Anti-Malware:** Malwarebytes,McAfee,BitDefender,Norton,Panda & BullGuard. [Reference](https://www.antivirusguide.com/best-malware-protection/?lp=default&utm_source=google&utm_medium=cpc&sgv_medium=search&utm_campaign=6478205166&utm_content=97940972094&utm_term=malware%20protection&cid=425328699728&pl=&feeditemid=&targetid=aud-755007040539:kwd-63356560&mt=b&network=g&device=c&adpos=&p1=&p2=&geoid=9062519&gclid=CjwKCAjw8cCGBhB6EiwAgORey6sYtN8PB8XE7e6PDCd4_nAJharS2IVbi4zy5UYe---Ly4zKLdeG3hoC3RUQAvD_BwE)
+**Others Anti-Malware:** Malwarebytes,McAfee,360 Anti-Virus,BitDefender,Norton,Panda & BullGuard. [Reference](https://www.antivirusguide.com/best-malware-protection/?lp=default&utm_source=google&utm_medium=cpc&sgv_medium=search&utm_campaign=6478205166&utm_content=97940972094&utm_term=malware%20protection&cid=425328699728&pl=&feeditemid=&targetid=aud-755007040539:kwd-63356560&mt=b&network=g&device=c&adpos=&p1=&p2=&geoid=9062519&gclid=CjwKCAjw8cCGBhB6EiwAgORey6sYtN8PB8XE7e6PDCd4_nAJharS2IVbi4zy5UYe---Ly4zKLdeG3hoC3RUQAvD_BwE)
 
 To better protect your computer most of the Antivirus Software need to buy. [Reference](https://www.security.org/antivirus/do-you-need-antivirus/)
 
