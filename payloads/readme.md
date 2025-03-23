@@ -5,17 +5,18 @@
 `kib_keyboard.ps1` is a powershell script that disables windows defender and notifications, then downloads the actual payload.
 
 ### payload descriptions (files denoted with X is detected by windows defender):
-1. `kidx86.exe` is a x86 tcp reverse shell writtern in c++ with byte change, scrambled byes, extra dummy bytes and byte order obfuscation. 12/69 hits in [VirusTotal](https://www.virustotal.com/gui/file/f0223b32b6d12ea8414eff31ec673b9438d988532bc6b2623ed1d42215f35803/detection). Able to bypass windows defender.
+1. `kidx86.exe` is a x86 tcp reverse shell writtern in c++ endcoded using shikata_ga_nai, with byte change, scrambled byes, extra dummy bytes and byte order obfuscation. 12/69 hits in [VirusTotal](https://www.virustotal.com/gui/file/f0223b32b6d12ea8414eff31ec673b9438d988532bc6b2623ed1d42215f35803/detection). Able to bypass windows defender.
 2. `kidx86_source.cpp` is the source file of the payload.
-3. `shell.exe` is a generic tcp reverse shell. X
-4. `bkbx64.exe` is a x64 tcp reverse shell encoded in a custom c++ payload. X
-5. `bkbx86.exe` is a x86 tcp reverse shell encoded in a custom c++ payload. X
-6. `bkbpayload.ll` and `bkbpayloadraw.cs` are XOR encoded tcp revershell written in a custom C# payload that uses a powershell file to download and execute in memory. (doesn't work)
-7. `test1.exe` is a tcp reverse shell encoded in custom python payload. X 
-8. `testing9.exe` is a edited tcp reverse shell created using veil before changing from .bat to .exe. X
-9. `c_rtcp.exe` is a tcp reverse shell written in C. X
-10. `cs_rtcp.exe` is a tcp reverse shell written in C#. X
-11. `go_rtcp.exe` is a tcp reverse shell written in go. X
+3. `shell.c` is the raw payload from msfvenom.
+4. `shell.exe` is a generic tcp reverse shell. X
+5. `bkbx64.exe` is a x64 tcp reverse shell encoded in a custom c++ payload. X
+6. `bkbx86.exe` is a x86 tcp reverse shell encoded in a custom c++ payload. X
+7. `bkbpayload.ll` and `bkbpayloadraw.cs` are XOR encoded tcp revershell written in a custom C# payload that uses a powershell file to download and execute in memory. (doesn't work)
+8. `test1.exe` is a tcp reverse shell encoded in custom python payload. X 
+9. `testing9.exe` is a edited tcp reverse shell created using veil before changing from .bat to .exe. X
+10. `c_rtcp.exe` is a tcp reverse shell written in C. X
+11. `cs_rtcp.exe` is a tcp reverse shell written in C#. X
+12. `go_rtcp.exe` is a tcp reverse shell written in go. X
 
 
 A number of tools and lanaguages was used to the process of trying to bypass windows defender, including: Veil, metasploit windows defender evasion, complining custom payloads, we tried payloads encoded using python, c, c++, c#, ruby, go, java.
