@@ -16,7 +16,8 @@
 
 3. In the Powershell, 
   You need to establish the Variable of the Name of the System.
-  Follow the Codes in Order :-
+   
+   Follow the Codes in Order :-
     
    - `shell`
     
