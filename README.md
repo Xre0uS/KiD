@@ -121,6 +121,7 @@ Although many antivirus solutions can be evaded as of writing, we expect this sp
 Yes, you can bypass some of them but you don't know that you will bypass the one you actually have.
 
 **Display protocol statistic:** Command Prompt run as administrator to display protocol statistic and current TCP/IP network connections.
+(reference/https://www.crackitdown.com/2018/12/detect-malware-or-keylogger-on-windows-html/)
 
 **List of connections:** Netstat -a, -b, -bno
 ![netstat1](https://user-images.githubusercontent.com/82925962/122866271-3d116680-d35a-11eb-882d-9f952a24f4b4.jpg)
