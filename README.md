@@ -1,4 +1,4 @@
-# KiB (Keyboard in Disguise)
+# Keyboard in Disguise (KiD)
 
 ## Parts used
 1. Standard USB keyboard   
