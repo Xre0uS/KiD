@@ -23,7 +23,7 @@ By default, the Digispark have a 5 second programming delay once plugged in for 
 
 The bootloader can be found [here](https://github.com/micronucleus/micronucleus/tree/v1.11/upgrade/releases) under the name `micronucleus-1.11-entry-jumper-pb0-upgrade.hex`, the program to fash the bootloader can be found [here](https://github.com/digistump/DigistumpArduino/releases/download/1.6.5a/micronucleus-2.0a4-win.zip).
 
-To [flash the firmware](#flashing-digispark-firmware), unzip the micronucleus folder, in a command prompt, enter the full path of micronucleus.exe, followed by the full path of the bootloader hex file, then plug in Digispark to the the computer.
+To flash the firmware, unzip the micronucleus folder, in a command prompt, enter the full path of micronucleus.exe, followed by the full path of the bootloader hex file, then plug in Digispark to the the computer.
 
 Ater the bootloader is flashed, the delay should be removed. To program digispark after flashing to the new bootloader, bridge the GND and P0 pins on Digispark with a conductive wire when uploading new code.
 
@@ -66,7 +66,7 @@ The first stage of the payload can be foun under ```final/1.ps1```, the script d
 We also need to migrate the process once the meterpreter shell opens so that the payload can be deleted by the powershell script, this can be done automatically using a ```.rc``` script in Kali. The script can be found under ```final/auto_migrate.rc```. To simplify the steps of preparing the reverse handlder in Kali, another ```.rc``` script can be used, which can be found under ```final/kid_msf_auto.rc```, this script also calls the auto migrate script so both steps can be done at once.
 ![alt text](resources/msf_auto_script.png)   
 
-Finally, flash Digispark using the appropriate code using the [steps laid out earlier](#flashing-digispark-firmware). In Kali, install and start apache servce, then place ```0.exe``` and ```1.exe``` under ```/var/www/html```, and place ```kid_msf_auto.rc``` and ```auto_migrate.rc``` under ```/home/kali```. In a terminal, start the reverse shell handler by entering
+Finally, flash Digispark using the appropriate code using the [steps laid out earlier](#digispark-bootloader). In Kali, install and start apache servce, then place ```0.exe``` and ```1.exe``` under ```/var/www/html```, and place ```kid_msf_auto.rc``` and ```auto_migrate.rc``` under ```/home/kali```. In a terminal, start the reverse shell handler by entering
 ```
 msfconsole -q -r /home/kali/kid_msf_auto.rc
 ```
