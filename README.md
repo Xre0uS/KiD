@@ -1,4 +1,4 @@
-# B.K.B (good name)
+KiB (Keyboard in Disguise)
 
 [DigiKeyboard reference](https://github.com/digistump/DigistumpArduino/blob/master/digistump-avr/libraries/DigisparkKeyboard/DigiKeyboard.h)
 |
