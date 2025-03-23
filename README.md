@@ -120,8 +120,7 @@ Although many antivirus solutions can be evaded as of writing, we expect this sp
 
 Yes, you can bypass some of them but you don't know that you will bypass the one you actually have.
 
-**Display protocol statistic:** Command Prompt run as administrator to display protocol statistic and current TCP/IP network connections.
-[reference](https://www.crackitdown.com/2018/12/detect-malware-or-keylogger-on-windows-html/)
+**Display protocol statistic:** Command Prompt run as administrator to display protocol statistic and current TCP/IP network connections. [Reference](https://www.crackitdown.com/2018/12/detect-malware-or-keylogger-on-windows-html/)
 
 **List of connections:** Netstat -a, -b, -bno
 
@@ -145,29 +144,27 @@ Yes, you can bypass some of them but you don't know that you will bypass the one
 
 **Advanced proctection MalwareFox Anti-Malware:** Free fuctional trial for 14 days for advanced malware detection and removal, fast & light won't slow down computer and browser cleanup(only disinfect). 
 
-For better protection need to but MalwareFox Premium for advanced malware detection and removal, browser cleanup, rootkits and rootkits proctection, ransomware proctection, realtime protection, fast & light, stop zero day exploit, anti-logger, intelligently works in background and premium support. [reference](https://www.malwarefox.com/)
+For better protection need to but MalwareFox Premium for advanced malware detection and removal, browser cleanup, rootkits and rootkits proctection, ransomware proctection, realtime protection, fast & light, stop zero day exploit, anti-logger, intelligently works in background and premium support. [Reference](https://www.malwarefox.com/)
 
 ![malwareFox](https://user-images.githubusercontent.com/82925962/122866413-7b0e8a80-d35a-11eb-8fe0-ceb6b9750773.jpg)
 
-**Others Anti-Malware:** Malwarebytes,McAfee,BitDefender,Norton,Panda & BullGuard [reference](https://www.antivirusguide.com/best-malware-protection/?lp=default&utm_source=google&utm_medium=cpc&sgv_medium=search&utm_campaign=6478205166&utm_content=97940972094&utm_term=malware%20protection&cid=425328699728&pl=&feeditemid=&targetid=aud-755007040539:kwd-63356560&mt=b&network=g&device=c&adpos=&p1=&p2=&geoid=9062519&gclid=CjwKCAjw8cCGBhB6EiwAgORey6sYtN8PB8XE7e6PDCd4_nAJharS2IVbi4zy5UYe---Ly4zKLdeG3hoC3RUQAvD_BwE)
+**Others Anti-Malware:** Malwarebytes,McAfee,BitDefender,Norton,Panda & BullGuard. [Reference](https://www.antivirusguide.com/best-malware-protection/?lp=default&utm_source=google&utm_medium=cpc&sgv_medium=search&utm_campaign=6478205166&utm_content=97940972094&utm_term=malware%20protection&cid=425328699728&pl=&feeditemid=&targetid=aud-755007040539:kwd-63356560&mt=b&network=g&device=c&adpos=&p1=&p2=&geoid=9062519&gclid=CjwKCAjw8cCGBhB6EiwAgORey6sYtN8PB8XE7e6PDCd4_nAJharS2IVbi4zy5UYe---Ly4zKLdeG3hoC3RUQAvD_BwE)
 
-To better protect your computer most of the Antivirus Software need to buy [reference](https://www.security.org/antivirus/do-you-need-antivirus/)
+To better protect your computer most of the Antivirus Software need to buy. [Reference](https://www.security.org/antivirus/do-you-need-antivirus/)
 
-**Keyscrambler:** Keyscrambler is also one of the most effective anti-keylogging software[reference](https://www.qfxsoftware.com/)
+**Keyscrambler:** Keyscrambler is also one of the most effective anti-keylogging software. [Reference](https://www.qfxsoftware.com/)
 
 **Use task manager to detect keylogger:** Navigate to Windows logon application, if it has duplication entry which sound unusual like Windows logon (1) it mean someone else is logon to your Windows system so right click and end the program.
 
-![task manager3](https://user-images.githubusercontent.com/82925962/122867541-43a0dd80-d35c-11eb-90a7-a5686fe2af84.jpg)
-
 Also check under Start up tab to see if any suspicious-looking programs in the boot menu, disable them
 
-![task manager4](https://user-images.githubusercontent.com/82925962/122867685-7a76f380-d35c-11eb-919e-4d6c2bdcd0e7.jpg)
+![task manager3](https://user-images.githubusercontent.com/82925962/122867541-43a0dd80-d35c-11eb-90a7-a5686fe2af84.jpg)
 
 **Control Panel:** You can check the list of applications in programs and features to see if there is a keylogger installed. Look for any suspicious program that you didn’t install and uninstall it.
 
 ![control panel](https://user-images.githubusercontent.com/82925962/122867751-91b5e100-d35c-11eb-9ed5-5cf9173bed32.jpg)
 
-**To prevent unauthorised usb device:** Run Local Group Policy Editor (gpedit) -> expand Administrative Templates -> expand System -> Device Installation Restrictions and configure the settings to prevent unauthorised usb device.[reference](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceinstanceids)
+**To prevent unauthorised usb device:** Run Local Group Policy Editor (gpedit) -> expand Administrative Templates -> expand System -> Device Installation Restrictions and configure the settings to prevent unauthorised usb device. [Reference](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceinstanceids)
 
 ![usb](https://user-images.githubusercontent.com/82925962/123115189-7dfc9e80-d472-11eb-9663-948c0930f0a2.jpg)
 
