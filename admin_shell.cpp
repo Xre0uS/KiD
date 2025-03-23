@@ -1,7 +1,7 @@
 #include "DigiKeyboard.h"
 
 void setup()
-{//turn LED off while code is running, this means the device is safe to unplug as soon as the LED turns back on
+{
   DigiKeyboard.sendKeyStroke(0);
   DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
   DigiKeyboard.delay(100);
