@@ -43,3 +43,11 @@ https://www.webroot.com/us/en/resources/tips-articles/keyloggers-explained
 https://www.malwarebytes.com/premium
 
 https://www.malwarefox.com/
+
+To display protocol statistic and current TCP/IP network connections.
+
+![netstat1](https://user-images.githubusercontent.com/82925962/122079897-6b5de600-ce30-11eb-937a-c089b18949ef.jpg)
+
+To check all the connection type netstat -a it will list down the protocol, Local address, Foreign address and state
+
+![netstat2](https://user-images.githubusercontent.com/82925962/122080194-ab24cd80-ce30-11eb-9590-4160bb4ceb86.jpg)
