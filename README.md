@@ -116,7 +116,7 @@ We were not able to test Mcafee, Norton because credit card information is requi
 Although many antivirus solutions can be evaded as of writing, we expect this specific payload be ineffective soon, as we have used it against many different anitvirus solutions, and they are quick to regonise new payload signatures. However, using different bytes and different layout when obfuscating the shellcode, a new payload with a unique signature can be wrriten and used to evade antivirus solutions.
 
 ## Prevention of similar attacks
-**Is there a way to bypass keylogger:** "No", f there is a keylogger on your machine there is no way to know what it's capability are or how you can be absolutely guarantee to bypass it. Why because keylogger is a malware it has a specified behaviour that attempt to log your keystroke most commonly they try to log your keystroke and then share with someone else.
+**Is there a way to bypass keylogger:** "No", if there is a keylogger on your machine there is no way to know what it's capability are or how you can be absolutely guarantee to bypass it. Why because keylogger is a malware it has a specified behaviour that attempt to log your keystroke most commonly they try to log your keystroke and then share with someone else.
 
 Yes, you can bypass some of them but you don't know that you will bypass the one you actually have.
 
