@@ -1,5 +1,4 @@
-# Keyboard_BadUSB
-(need a better name for the project)
+# B.K.B
 
 
 # Opening a revershell from windows to kali
