@@ -74,3 +74,15 @@ Similarly search by the application name to know which applications is working a
 To automatically detect keylogger on your system you can install MalwareFox antimalware which is a strong antimalware that can easily catch threats like keyloggers and spyware 
 
 ![malwareFox](https://user-images.githubusercontent.com/82925962/122090304-36ef2780-ce3a-11eb-8fbf-bb7cb0aa37d7.jpg)
+
+Use task manager to detect keylogger
+
+![task manager](https://user-images.githubusercontent.com/82925962/122172446-537b7600-ceb3-11eb-9bb3-1f287e7b96b1.jpg)
+
+Navigate to Windows logon applicaiton, if it has duplication entry which sound unsual like Windows logon (1) it mean someone else is logon to your Windows system so right click and end the program.
+
+![task manager3](https://user-images.githubusercontent.com/82925962/122174039-f7b1ec80-ceb4-11eb-9216-1a2af023d4a8.jpg)
+
+Also check under Start up tab to see if any suspicious-looking programs in the boot menu, disable them
+
+![task manager4](https://user-images.githubusercontent.com/82925962/122174854-aeae6800-ceb5-11eb-995a-8c4a2f1da28d.jpg)
