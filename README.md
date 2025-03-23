@@ -17,6 +17,9 @@ The internal keyboard PCB is connected to the USB hub, and digispark is also con
 The internal connections and layout of the completed keyboard are as follows:
 ![alt text](resources/keyboard_internal.png)
 
+The completed keyboard looks identical to when it was unmodified:
+![alt text](resources/keyboard_final.png)
+
 ## Programming Digispark
 
 To program Digispark to deliver the keystrokes we wanted, we will need an IDE to write to Digispark. We can use either the Arduino IDE or the PIO extenstion in Visual Studio Code. After the desired code is written into the IDE, press the upload button in the IDE and connect Digispark into the computer. The sorce code of the Digispark keystrokes will be explained at a later section.
