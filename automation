@@ -11,7 +11,8 @@ inside auto.rc
 
 in kali:
 
-run: service postgresql start //start the service (let me test more if we actually need it) 
+run:
+service postgresql start //start the service (let me test more if we actually need it) 
 msfconsole -r auto.rc //this will start listening and run all the codes in auto.rc 
 
 
