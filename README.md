@@ -10,7 +10,7 @@
 ![alt text](resources/keyboard_new.jpg)
 
 2. Usb hub with FE1.1s chip
-![alt text](usb_hub.jpg)
+![alt text](resources/usb_hub.jpg)
 
 3. DigiSpark with Arduino ATtiny85 microprocessor
-![alt text](digispark.jpg)
+![alt text](resources/digispark.jpg)
