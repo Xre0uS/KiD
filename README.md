@@ -7,7 +7,7 @@
 
 ## Parts used
 1. Standard usb keyboard   
-![alt text](resources/keyboard_new.jpg)
+![alt text](resources/keyboard_new.png)
 
 2. Usb hub with FE1.1s chip  
 ![alt text](resources/usb_hub.jpg)
