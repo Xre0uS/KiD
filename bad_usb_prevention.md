@@ -88,3 +88,8 @@ Navigate to Windows logon applicaiton, if it has duplication entry which sound u
 Also check under Start up tab to see if any suspicious-looking programs in the boot menu, disable them
 
 ![task manager4](https://user-images.githubusercontent.com/82925962/122174854-aeae6800-ceb5-11eb-995a-8c4a2f1da28d.jpg)
+
+Download keyscrambler : https://www.qfxsoftware.com/
+
+![keyscrambler](https://user-images.githubusercontent.com/82925962/122230191-fd76f480-ceeb-11eb-9046-23243fc4faa3.jpg)
+
