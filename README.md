@@ -50,9 +50,17 @@ The raw shellcode can be found under ```final/shell.c```.
 
 Using the function, we can replace the geninue bytes with dummy bytes, and store the geninue bytes in another string, when the executeable is run, the geninue shellcode will then be assembled. The random bytes can be generated using random.org. Windows defender will be our primary antivrus solution to evade, since it's the most common antivirus on a windows computer. Windows defender has gotten very good at regonise singature of the payloads, so more ```memcpy``` functions will have to be used to evade detection.   
 
-In the final payload, the source code can be found under ```final/payload_source.cpp```, the shellcode is broken into 4 parts, each with their own scrambled bytes, and with many extra bytes and strings thrown in between. Each parts are individually assembled and the 4 parts are pieced together at the end.
+In the final payload, the source code can be found under ```final/payload_source.cpp```, the shellcode is broken into 4 parts, each with their own scrambled bytes, and with many extra bytes and strings thrown in between. Each parts are individually assembled and the 4 parts are pieced together at the end. Afer obfuscation is done, build the source code into a ```.exe``` file.
 
-Unfortunatly, since windows recently added meterpreter singatures (the toolset that we're using to gain control of the victim machine), once the shellcode is reassembled, windows defender can still detect the signature, so the success rate of the payload is not very high, although we did managed to gain control a few times. Nevertheless, being able to be downloaded undetected by most antivirus solutions has proved that the evasion method works. We believe that using similar evasion method to generate a ```.dll``` file, and run the payload in memory will be able to open a reverse shell undetected.
+Unfortunatly, since windows recently added meterpreter singatures (the toolset that we're using to gain control of the victim machine), once the shellcode is reassembled, windows defender can still detect the signature, so the success rate of the payload is not very high, although we did managed to gain control a few times. Nevertheless, being able to be downloaded undetected by most antivirus solutions has proved that the evasion method works. We believe that using similar evasion method to generate a ```.dll``` file, and run the payload in memory will be able to open a reverse shell undetected. More antivirus tests can be found at the following sections.   
+
+## Delivering the payload
+To deliver the payload, we chose to use a 2-stage payload, with the first stage being a powershell script ```.ps1``` file, this will give us better control of the attack steps, and reduce the length of commands needed to be entered to the victim's computer.   
+
+The first stage of the payload can be foun under ```final/1.ps1```, the script downloads the ```.exe``` file that we made earlier and run it, which can be found under ```final/0.exe```. the payload then deletes the ```.exe``` file after it has be run as to not leave any evidece.
+![alt text](resources/powershell_script.png)   
+
+
 
 ## Antivirus evasion
 **AVG:**  AVG antivirus can be evaded as per the demo video.   
