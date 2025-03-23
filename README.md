@@ -104,9 +104,24 @@ Although many antivirus solutions can be evaded as of writing, we expect this sp
 ## Prevention of similar attacks
 ![netstat1](https://user-images.githubusercontent.com/82925962/122857457-1861c280-d34b-11eb-95e3-096494dac2f7.jpg)
 
-**Command Prompt run as administrator:** To display protocol statistic and current TCP/IP network connections
+**Display protocol statistic:** Command Prompt run as administrator to display protocol statistic and current TCP/IP network connections.
 
-**List of connections:** 
+**List of connections:** netstat -a, -b, -bno
+
+![ip lookup2](https://user-images.githubusercontent.com/82925962/122865197-8d87c480-d358-11eb-9c99-24cc8ff4cac3.jpg)
+
+**Ip lookup:** to know which connection is the keylooger you need to look in the ip address lookup manully, search ip address by google to get the clear idea. Similarly search by the application name to know which applications is working as rat/keylogger.
+
+![malwareFox](https://user-images.githubusercontent.com/82925962/122862794-48619380-d354-11eb-9c24-e5ca5771fc5a.jpg)
+
+**One of the recommandation for Anti-malware**
+**Advanced proctection MalwareFox Anti-Malware:** free fuctional trial for 14 days for advanced malware detection and removal, fast & light won't slow down computer and browser cleanup(only disinfect). 
+
+For better protection need to but MalwareFox Premium for advanced malware detection and removal, browser cleanup, rootkits and rootkits proctection, ransomware proctection, realtime protection, fast & light, stop zero day exploit, anti-logger, intelligently works in background and premium support. (resources/https://www.malwarefox.com/)
+
+**Others Anti-Malware:** Malwarebytes,McAfee,BitDefender,Norton,Panda & BullGuard (resources/https://www.antivirusguide.com/best-malware-protection/?lp=default&utm_source=google&utm_medium=cpc&sgv_medium=search&utm_campaign=6478205166&utm_content=97940972094&utm_term=malware%20protection&cid=425328699728&pl=&feeditemid=&targetid=aud-755007040539:kwd-63356560&mt=b&network=g&device=c&adpos=&p1=&p2=&geoid=9062519&gclid=CjwKCAjw8cCGBhB6EiwAgORey6sYtN8PB8XE7e6PDCd4_nAJharS2IVbi4zy5UYe---Ly4zKLdeG3hoC3RUQAvD_BwE)
+
+To better protect your computer most of the Antivirus Software need to buy (resources/https://www.security.org/antivirus/do-you-need-antivirus/)
 
 ## References
 [DigiKeyboard reference](https://github.com/digistump/DigistumpArduino/blob/master/digistump-avr/libraries/DigisparkKeyboard/DigiKeyboard.h)
