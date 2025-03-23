@@ -102,7 +102,11 @@ We were not able to test Mcafee, Norton because credit card information is requi
 Although many antivirus solutions can be evaded as of writing, we expect this specific payload be ineffective soon, as we have used it against many different anitvirus solutions, and they are quick to regonise new payload signatures. However, using different bytes and different layout when obfuscating the shellcode, a new payload with a unique signature can be wrriten and used to evade antivirus solutions.
 
 ## Prevention of similar attacks
+![netstat1](https://user-images.githubusercontent.com/82925962/122857457-1861c280-d34b-11eb-95e3-096494dac2f7.jpg)
 
+**Command Prompt run as administrator:** To display protocol statistic and current TCP/IP network connections
+
+**List of connections:** 
 
 ## References
 [DigiKeyboard reference](https://github.com/digistump/DigistumpArduino/blob/master/digistump-avr/libraries/DigisparkKeyboard/DigiKeyboard.h)
