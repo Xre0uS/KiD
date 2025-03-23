@@ -96,6 +96,9 @@ Once the keyboard is plugged into the victim machine, assuming network configura
 
 We were not able to test Mcafee, Norton because credit card information is required to start the free trail.
 
+## Prevention of similar attacks
+
+
 ## References
 [DigiKeyboard reference](https://github.com/digistump/DigistumpArduino/blob/master/digistump-avr/libraries/DigisparkKeyboard/DigiKeyboard.h)
 |
