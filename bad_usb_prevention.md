@@ -44,6 +44,7 @@ https://www.malwarebytes.com/premium
 
 https://www.malwarefox.com/
 
+Run command prompt as administator
 To display protocol statistic and current TCP/IP network connections.
 
 ![netstat1](https://user-images.githubusercontent.com/82925962/122079897-6b5de600-ce30-11eb-937a-c089b18949ef.jpg)
@@ -51,3 +52,25 @@ To display protocol statistic and current TCP/IP network connections.
 To check all the connection type netstat -a it will list down the protocol, Local address, Foreign address and state
 
 ![netstat2](https://user-images.githubusercontent.com/82925962/122080194-ab24cd80-ce30-11eb-9590-4160bb4ceb86.jpg)
+
+If you want to know which applications is connected to the internet type netstat -b it will display local address, foreign address and state
+
+![netstat3](https://user-images.githubusercontent.com/82925962/122086852-b0851680-ce36-11eb-96fc-e45ba3c824a9.jpg)
+
+To know the process Id type netstat -bno
+
+![netstat4](https://user-images.githubusercontent.com/82925962/122087351-32753f80-ce37-11eb-8333-91101301284a.jpg)
+
+To know which connection is the keylogger you need to look in the ip address lookup manually, search ip address by google to get the clear idea
+
+![ip lookup](https://user-images.githubusercontent.com/82925962/122088631-7fa5e100-ce38-11eb-92f9-cb4c10bf6df9.jpg)
+
+![ip lookup2](https://user-images.githubusercontent.com/82925962/122088641-83396800-ce38-11eb-8b22-5d2d943e54b8.jpg)
+
+Similarly search by the application name to know which applications is working as rat 
+
+![application](https://user-images.githubusercontent.com/82925962/122089481-63567400-ce39-11eb-9307-8434c1565e75.jpg)
+
+To automatically detect keylogger on your system you can install MalwareFox antimalware which is a strong antimalware that can easily catch threats like keyloggers and spyware 
+
+![malwareFox](https://user-images.githubusercontent.com/82925962/122090304-36ef2780-ce3a-11eb-8fbf-bb7cb0aa37d7.jpg)
