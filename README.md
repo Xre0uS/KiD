@@ -20,3 +20,5 @@ The internal keyboard PCB is connected to the usb hub, and digispark is also con
 
 https://github.com/micronucleus/micronucleus/tree/v1.11/upgrade/releases
 https://github.com/digistump/DigistumpArduino/releases
+
+libraries\DigisparkKeyboard\usbconfig.h
