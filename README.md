@@ -177,7 +177,7 @@ Also check under Start up tab to see if any suspicious-looking programs in the b
 
 ![usb](https://user-images.githubusercontent.com/82925962/123115189-7dfc9e80-d472-11eb-9663-948c0930f0a2.jpg)
 
-**Example one of the policy you can configure*
+**Example one of the policy you can configure**
 
 This policy setting allows you to prevent the installation of devices that are not specifically described by any other policy setting
 
