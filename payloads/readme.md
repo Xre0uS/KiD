@@ -14,6 +14,6 @@
 7. `c_rtcp.exe` is a tcp reverse shell written in C. X
 8. `cs_rtcp.exe` is a tcp reverse shell written in C#. X
 9. `go_rtcp.exe` is a tcp reverse shell written in go. X
-10. `kidx86.exe` is a x86 tcp reverse shell writtern in c++ with byte change and scrambled bytes. 16/69 hits in [VirusTotal](https://www.virustotal.com/gui/file/57aea7f776f17657d8c84b43b887713f4bdada65bb875e647b2de6670e80e417/detection).
+10. `kidx86.exe` is a x86 tcp reverse shell writtern in c++ with byte change, scrambled byes, extra dummy bytes and byte order obfuscation. 12/69 hits in [VirusTotal](https://www.virustotal.com/gui/file/f0223b32b6d12ea8414eff31ec673b9438d988532bc6b2623ed1d42215f35803/detection).
 
 A number of tools and lanaguages was used to the process of trying to bypass windows defender, including: Veil, metasploit windows defender evasion, complining custom payloads, we tried payloads encoded using python, c, c++, c#, ruby, go, java.
