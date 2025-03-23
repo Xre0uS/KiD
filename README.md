@@ -93,7 +93,7 @@ The code to flash to Digispark will be different but the remaining steps after f
 ![alt text](resources/malwarebytes_evasion.png)  
 
 **360 Anti-Virus:** 360 Anti-Virus can be evaded.
-![alt text](resources/360EV.png) 
+![alt text](resources/360EV.PNG) 
 
 
 
