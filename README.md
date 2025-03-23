@@ -105,13 +105,14 @@ The code to flash to Digispark will be different but the remaining steps after f
 **360 Anti-Virus:** 360 Anti-Virus can be evaded.
 ![alt text](resources/360EV.PNG) 
 
-
-
 **Kaspersky Security Cloud:**  The payload can be downloaded without being detected, but a meterpreter session cannot be opened without being detected.   
 
-**Bitdefender Antivirus Free Edition:**  We were not able to evade Bitdefender Antivirus Free Edition.   
+**Bitdefender Antivirus Free Edition:**  We were not able to evade Bitdefender Antivirus Free Edition.  
 
-We were not able to test Mcafee, Norton because credit card information is required to start the free trail.   
+**McAfee LiveSafe:** McAfee LiveSafe can be evaded.
+![alt text](resources/mcafee_evasion.png)    
+
+We were not able to test Norton because credit card information is required to start the free trail.   
 
 Although many antivirus solutions can be evaded as of writing, we expect this specific payload be ineffective soon, as we have used it against many different anitvirus solutions, and they are quick to regonise new payload signatures. However, using different bytes and different layout when obfuscating the shellcode, a new payload with a unique signature can be wrriten and used to evade antivirus solutions.
 
