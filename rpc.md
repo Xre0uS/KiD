@@ -57,14 +57,14 @@
     ![alt text](resources/rpc_images/TurnOffNLA.PNG)
   
     Now It will be turned off.
-    You can use Number 4 command to check if it worked. 
+    Use Number 4 command to check if it worked. 
   
       Image is seen below:
 
       ![alt text](resources/rpc_images/TurnedOffNLA.PNG)
   
 6. Since now it is off, we can connect using our normal shell in our own machine.
-    You can use the command in Kali Linux Shell to connect:-
+    Ue the command in Kali Linux Shell to connect:-
   
     `rdesktop <IP ADDRESS> -u <Username> -p <Usermame's Password>`
     
@@ -93,7 +93,7 @@
     ![alt text](resources/rpc_images/TurnOnNLA.PNG)
 
     Now It will be turned off.
-    You can use Number 4 command to check if it worked.
+    Use Number 4 command to check if it worked.
    
     Image is seen below:
 
