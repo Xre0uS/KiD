@@ -57,13 +57,15 @@ Unfortunatly, since windows recently added meterpreter singatures (the toolset t
 ## Delivering the payload
 Kali will be our attacking machine since it offers a wide range of tools, and we will be using the meterpreter framework to control the victim machine.   
 
-To deliver the payload, we chose to use a 2-stage payload, with the first stage being a powershell script ```.ps1``` file, this will give us better control of the attack steps, and reduce the length of commands needed to be entered to the victim's computer.   
+To deliver the payload, we chose to use a 2-stage payload, with the first stage being a powershell script ```.ps1``` file, this will give us better control of the attack steps, and reduce the length of commands needed to be entered to the victim's computer. Digispark will contain the keystrokes to start the attack, we first open a hidden powershell window, then download and run the ```.ps1``` file in memory, the source code of Digispark keystrokes can be found under ```final/digispark.cpp```. If we want to have remote access to the victim's machine, an admin powershell is needed. The steps will be laid out in the following sections.    
 
 The first stage of the payload can be foun under ```final/1.ps1```, the script downloads the ```.exe``` file that we made earlier and run it, which can be found under ```final/0.exe```. the payload then deletes the ```.exe``` file after it has be run as to not leave any evidece.
 ![alt text](resources/powershell_script.png)   
 
 We also need to migrate the process once the meterpreter shell opens so that the payload can be deleted by the powershell script, this can be done automatically using a ```.rc``` script in Kali. The script can be found under ```final/auto_migrate.rc```. To simplify the steps of preparing the reverse handlder in Kali, another ```.rc``` script can be used, which can be found under ```final/kid_msf_auto.rc```, this script also calls the auto migrate script so both steps can be done at once.
 ![alt text](resources/msf_auto_script.png)   
+
+Finally, in Kali, install and start apache servce, the place ```0.exe``` and ```1.exe``` under ```/var/www/html``` 
 
 
 ## Antivirus evasion
