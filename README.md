@@ -88,8 +88,6 @@ The code to flash to Digispark will be different but the remaining steps after f
 
 ## Antivirus evasion
 
-**VirusTotal**: VirusTotal is malware analyser that uses a number of antivirus scanners from different cybersecurity vendors. Our payload was only detected by ../.. antivirus engines. (TO ADD CLOSER TO PRESENTATION DATE)   
-
 **AVG:**  AVG antivirus can be evaded as per the demo video.   
   
 **Avast:**  Avast can be partially evaded, if webshield is turned off to allow downloading of local network files(Avast blocks downloading files local network by default, for this project, we hosted the files on the local network for easier access and management, however, if this is a real attack, the payload would be hosted on a remote server and the webshield would not block the download), with fast migration, the meterpreter shell stayed open for a few mimutes before being detected.   
