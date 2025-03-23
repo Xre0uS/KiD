@@ -6,6 +6,7 @@
 1. `shell.exe` is a generic tcp reverse shell. X
 2. `bkbx64.exe` is a x64 tcp reverse shell encoded in a custom c++ payload. X
 3. `bkbx86.exe` is a x86 tcp reverse shell encoded in a custom c++ payload. X
+4. `bkbpayload.ll` and `bkbpayloadraw.cs` are XOR encoded tcp revershell written in a custom C# payload that uses a powershell file to download and execute in memory.
 
 
 A number of tools and lanaguages was used to the process of trying to bypass windows defender, including: Veil, metasploit windows defender evasion, complining custom payloads.
