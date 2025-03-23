@@ -34,7 +34,7 @@ Ater the bootloader is flashed, the delay should be removed. To program digispar
 
 ## Hiding Digispark's name
 When a USB device is first initialised, a notification will show up in windows with the name of the device, to change the name of Digispark to better hide the device, navigate to the Arduino config file ```libraries\DigisparkKeyboard\usbconfig.h```, the name can be changed accordinly.   
-![alt text](resources/digispark_namechange.png)
+  ![alt text](resources/digispark_namechange.png)
 
 ## Antivirus evasion
 **AVG:**  AVG antivirus can be evaded as per the demo video.   
