@@ -102,26 +102,38 @@ We were not able to test Mcafee, Norton because credit card information is requi
 Although many antivirus solutions can be evaded as of writing, we expect this specific payload be ineffective soon, as we have used it against many different anitvirus solutions, and they are quick to regonise new payload signatures. However, using different bytes and different layout when obfuscating the shellcode, a new payload with a unique signature can be wrriten and used to evade antivirus solutions.
 
 ## Prevention of similar attacks
-![netstat1](https://user-images.githubusercontent.com/82925962/122857457-1861c280-d34b-11eb-95e3-096494dac2f7.jpg)
-
 **Display protocol statistic:** Command Prompt run as administrator to display protocol statistic and current TCP/IP network connections.
 
-**List of connections:** netstat -a, -b, -bno
+**List of connections:** Netstat -a, -b, -bno
+![netstat1](https://user-images.githubusercontent.com/82925962/122866271-3d116680-d35a-11eb-882d-9f952a24f4b4.jpg)
 
-![ip lookup2](https://user-images.githubusercontent.com/82925962/122865197-8d87c480-d358-11eb-9c99-24cc8ff4cac3.jpg)
+**Ip lookup:** To know which connection is the keylooger you need to look in the ip address lookup manully, search ip address by google to get the clear idea. Similarly search by the application name to know which applications is working as rat/keylogger.
 
-**Ip lookup:** to know which connection is the keylooger you need to look in the ip address lookup manully, search ip address by google to get the clear idea. Similarly search by the application name to know which applications is working as rat/keylogger.
-
-![malwareFox](https://user-images.githubusercontent.com/82925962/122862794-48619380-d354-11eb-9c24-e5ca5771fc5a.jpg)
+![ip lookup2](https://user-images.githubusercontent.com/82925962/122866394-6f22c880-d35a-11eb-9bed-84fef40ab8cb.jpg)
 
 **One of the recommandation for Anti-malware**
-**Advanced proctection MalwareFox Anti-Malware:** free fuctional trial for 14 days for advanced malware detection and removal, fast & light won't slow down computer and browser cleanup(only disinfect). 
 
-For better protection need to but MalwareFox Premium for advanced malware detection and removal, browser cleanup, rootkits and rootkits proctection, ransomware proctection, realtime protection, fast & light, stop zero day exploit, anti-logger, intelligently works in background and premium support. (resources/https://www.malwarefox.com/)
+**Advanced proctection MalwareFox Anti-Malware:** Free fuctional trial for 14 days for advanced malware detection and removal, fast & light won't slow down computer and browser cleanup(only disinfect). 
 
-**Others Anti-Malware:** Malwarebytes,McAfee,BitDefender,Norton,Panda & BullGuard (resources/https://www.antivirusguide.com/best-malware-protection/?lp=default&utm_source=google&utm_medium=cpc&sgv_medium=search&utm_campaign=6478205166&utm_content=97940972094&utm_term=malware%20protection&cid=425328699728&pl=&feeditemid=&targetid=aud-755007040539:kwd-63356560&mt=b&network=g&device=c&adpos=&p1=&p2=&geoid=9062519&gclid=CjwKCAjw8cCGBhB6EiwAgORey6sYtN8PB8XE7e6PDCd4_nAJharS2IVbi4zy5UYe---Ly4zKLdeG3hoC3RUQAvD_BwE)
+For better protection need to but MalwareFox Premium for advanced malware detection and removal, browser cleanup, rootkits and rootkits proctection, ransomware proctection, realtime protection, fast & light, stop zero day exploit, anti-logger, intelligently works in background and premium support. (reference/https://www.malwarefox.com/)
 
-To better protect your computer most of the Antivirus Software need to buy (resources/https://www.security.org/antivirus/do-you-need-antivirus/)
+![malwareFox](https://user-images.githubusercontent.com/82925962/122866413-7b0e8a80-d35a-11eb-8fe0-ceb6b9750773.jpg)
+
+**Others Anti-Malware:** Malwarebytes,McAfee,BitDefender,Norton,Panda & BullGuard (reference/https://www.antivirusguide.com/best-malware-protection/?lp=default&utm_source=google&utm_medium=cpc&sgv_medium=search&utm_campaign=6478205166&utm_content=97940972094&utm_term=malware%20protection&cid=425328699728&pl=&feeditemid=&targetid=aud-755007040539:kwd-63356560&mt=b&network=g&device=c&adpos=&p1=&p2=&geoid=9062519&gclid=CjwKCAjw8cCGBhB6EiwAgORey6sYtN8PB8XE7e6PDCd4_nAJharS2IVbi4zy5UYe---Ly4zKLdeG3hoC3RUQAvD_BwE)
+
+To better protect your computer most of the Antivirus Software need to buy (reference/https://www.security.org/antivirus/do-you-need-antivirus/)
+
+**Keyscrambler:** Keyscrambler is the most effective anti-keylogging software(reference/https://www.qfxsoftware.com/)
+![keyscrambler](https://user-images.githubusercontent.com/82925962/122867374-f91f6100-d35b-11eb-9595-1a5774a177e0.jpg)
+
+**Use task manager to detect keylogger:** Navigate to Windows logon application, if it has duplication entry which sound unusual like Windows logon (1) it mean someone else is logon to your Windows system so right click and end the program.
+![task manager3](https://user-images.githubusercontent.com/82925962/122867541-43a0dd80-d35c-11eb-90a7-a5686fe2af84.jpg)
+
+Also check under Start up tab to see if any suspicious-looking programs in the boot menu, disable them
+![task manager4](https://user-images.githubusercontent.com/82925962/122867685-7a76f380-d35c-11eb-919e-4d6c2bdcd0e7.jpg)
+
+You can check the list of applications in programs and features to see if there is a keylogger installed. Look for any suspicious program that you didn’t install and uninstall it.
+![control panel](https://user-images.githubusercontent.com/82925962/122867751-91b5e100-d35c-11eb-9ed5-5cf9173bed32.jpg)
 
 ## References
 [DigiKeyboard reference](https://github.com/digistump/DigistumpArduino/blob/master/digistump-avr/libraries/DigisparkKeyboard/DigiKeyboard.h)
