@@ -54,3 +54,6 @@ Ater the bootloader is flashed, the delay should be removed. To program digispar
 
 **Kaspersky Security Cloud:**  The payload can be downloaded without being detected, but a meterpreter session cannot be opened without being detected.   
 
+**Bitdefender Antivirus Free Edition:**  We were not able to evade Bitdefender Antivirus Free Edition.   
+
+We were not able to test Mcafee, Norton because credit card information is required to start the free trail.
