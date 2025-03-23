@@ -37,4 +37,4 @@ libraries\DigisparkKeyboard\usbconfig.h
 
 ## Antivirus evasion
 AVG antivirus can be bypassed.   
-Avast can be partically bypassed, if webshield is turned off (Avast blocks downloading files local network by default, for this project, we hosted the files on the local network for easier access and management, however, if this is a real attack, the payload would be hosted on a remote server), with fast migration, the meterpreter shell stayed open for a few mimutes before being detected.
+Avast can be partically bypassed, if webshield is turned off to enable downloading of local network files(Avast blocks downloading files local network by default, for this project, we hosted the files on the local network for easier access and management, however, if this is a real attack, the payload would be hosted on a remote server), with fast migration, the meterpreter shell stayed open for a few mimutes before being detected.
