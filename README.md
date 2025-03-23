@@ -1,4 +1,4 @@
-# B.K.B
+# B.K.B (good name)
 
 
 # Opening a revershell from windows to kali
