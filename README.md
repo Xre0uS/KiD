@@ -174,6 +174,8 @@ After configure the policy settings go to Device Manager, check the devices prop
 
 ![usb](https://user-images.githubusercontent.com/82925962/123115189-7dfc9e80-d472-11eb-9663-948c0930f0a2.jpg)
 
+![status](https://user-images.githubusercontent.com/82925962/123547563-df36b180-d793-11eb-93c4-6d5887e06fb6.jpg)
+
 **One example of the policy you can configure**
 
 This policy setting allows you to prevent the installation of devices that are not specifically described by any other policy setting
