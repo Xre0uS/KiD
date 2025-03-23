@@ -33,7 +33,8 @@ To flash the firmware, unzip the micronucleus folder, in a command prompt, enter
 Ater the bootloader is flashed, the delay should be removed. To program digispark after flashing to the new bootloader, bridge the GND and P0 pins on Digispark with a conductive wire when uploading new code.
 
 ## Hiding Digispark's name
-libraries\DigisparkKeyboard\usbconfig.h
+When a USB device is first initialised, a notification will show up in windows with the name of the device, to change the name of Digispark to better hide the device, navigate to the Arduino config file ```libraries\DigisparkKeyboard\usbconfig.h```, the name can be changed accordinly.
+![alt text](resources/digispark_namechange.png)
 
 ## Antivirus evasion
 **AVG:**  AVG antivirus can be evaded as per the demo video.   
