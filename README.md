@@ -174,7 +174,7 @@ Also check under **Startup** tab to see if any suspicious-looking programs in th
 
 **To prevent unauthorised usb device:** Run Local Group Policy Editor (gpedit) -> expand Administrative Templates -> expand System -> Device Installation Restrictions and configure the settings to prevent unauthorised usb device. [Reference](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceinstanceids) / [Reference](https://docs.microsoft.com/en-us/microsoft-365/security/defender-endpoint/control-usb-devices-using-intune?view=o365-worldwide)
 
-Policy setting might need to add class GUID to the list this setting allows you to specify a list of device setuo class class globally unique identifiers(GUIDs) for device drivers that Windows is prevented from installing.
+Policy setting might need to add class GUID to the list this setting allows you to specify a list of device setup class class globally unique identifiers(GUIDs) for device drivers that Windows is prevented from installing.
 
 After configure the policy settings go to Device Manager, check the devices properties the status will show something like forbidden.
 
