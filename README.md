@@ -40,7 +40,7 @@ Ater the bootloader is flashed, the delay should be removed. To program digispar
 ## Antivirus evasion
 **AVG:**  AVG antivirus can be evaded as per the demo video.   
   
-**Avast:**  Avast can be partially evaded, if webshield is turned off to enable downloading of local network files(Avast blocks downloading files local network by default, for this project, we hosted the files on the local network for easier access and management, however, if this is a real attack, the payload would be hosted on a remote server), with fast migration, the meterpreter shell stayed open for a few mimutes before being detected.   
+**Avast:**  Avast can be partially evaded, if webshield is turned off to allow downloading of local network files(Avast blocks downloading files local network by default, for this project, we hosted the files on the local network for easier access and management, however, if this is a real attack, the payload would be hosted on a remote server and the webshield would not block the download), with fast migration, the meterpreter shell stayed open for a few mimutes before being detected.   
 ![alt text](resources/avast_evasion.png)   
 
   
