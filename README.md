@@ -115,7 +115,7 @@ Although many antivirus solutions can be evaded as of writing, we expect this sp
 
 ![netstat3](https://user-images.githubusercontent.com/82925962/122868377-75667400-d35d-11eb-9f93-3723b0ae0237.jpg)
 
-**To know the process Id type:** Netstat -
+**To know the process Id type:** Netstat -bno
 
 ![netstat4](https://user-images.githubusercontent.com/82925962/122868385-77c8ce00-d35d-11eb-84c1-21c349e28252.jpg)
 
