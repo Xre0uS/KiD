@@ -178,7 +178,7 @@ This policy setting allows you to prevent the installation of devices that are n
 
 ![usb2](https://user-images.githubusercontent.com/82925962/123119721-5a3b5780-d476-11eb-8057-25206da7c8b7.jpg)
 
-**Install USB block:** allows you to control, block and monitor USB and peripheral devices from having unauthorized access to your sensitive data. [Reference](https://www.manageengine.com/device-control/?utm_source=Windowsreport&utm_medium=Website-cpc&utm_campaign=DCP-BlockUSBPorts) [Reference] 
+**Install USB block:** allows you to control, block and monitor USB and peripheral devices from having unauthorized access to your sensitive data. [Reference](https://www.manageengine.com/device-control/?utm_source=Windowsreport&utm_medium=Website-cpc&utm_campaign=DCP-BlockUSBPorts)
 
 **Other USB block software tools** [Reference](https://windowsreport.com/block-usb-ports-software/)
 
