@@ -95,10 +95,12 @@ Once the keyboard is plugged into the vicim machine, assuming network configurat
 
 We were not able to test Mcafee, Norton because credit card information is required to start the free trail.
 
-
+## References
 [DigiKeyboard reference](https://github.com/digistump/DigistumpArduino/blob/master/digistump-avr/libraries/DigisparkKeyboard/DigiKeyboard.h)
 |
 [DigiMouse reference](https://github.com/digistump/DigistumpArduino/blob/master/digistump-avr/libraries/DigisparkMouse/DigiMouse.h) 
 (only one can be used at a time)
 
-[Payload reference](https://github.com/swisskyrepo/PayloadsAllTheThings)
+[Msfvenom payload reference](https://github.com/swisskyrepo/PayloadsAllTheThings)   
+
+Custom payload referces [1](https://www.ired.team/offensive-security/defense-evasion/evading-windows-defender-using-classic-c-shellcode-launcher-with-1-byte-change) [2](https://securityboulevard.com/2020/02/evading-antivirus-with-better-meterpreter-payloads/) [3](https://www.purpl3f0xsecur1ty.tech/2021/03/30/av_evasion.html)
