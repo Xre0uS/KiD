@@ -1,5 +1,6 @@
 # B.K.B (good name)
 
+[DigiKeyboard reference](https://github.com/digistump/DigistumpArduino/blob/master/digistump-avr/libraries/DigisparkKeyboard/DigiKeyboard.h)
 
 # Opening a revershell from windows to kali
 
