@@ -11,12 +11,15 @@
 
 2. Run a Sysinfo to see the Name of the Desktop.
 
+      Image is seen below:
+      ![alt text]
+
 3. In the Powershell, 
   You need to establish the Variable of the Name of the System.
   Codes :-
   
     `$ComputerName = " NAME SEEN IN SYSINFO "`
-  
+      
 4. Once you have done this, You will need to check if you require Network Level Authentication(NLA).
     Use the Following command to check if you do not know:-
     
@@ -43,10 +46,14 @@
     You can use the command in Kali Linux Shell to connect:-
   
     `rdesktop <IP ADDRESS> -u <Username> -p <Usermame's Password>`
-  
+    
     Image is seen below:
     ![alt text]
-  
+    
+    If you do not know the Username, run the command `net user` in the Powershell
+    
+    If you do not know the Username's Password, hashdump will be required. 
+    
 7. Once you have finished with everything, to reactivate the Network Level Authentication(NLA).
     Using the Admin Level Powershell,
     
