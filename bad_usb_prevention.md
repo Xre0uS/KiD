@@ -21,3 +21,11 @@ Link to hacking a computer using Arduino:
 https://medium.com/csg-govtech/hacking-a-computer-using-arduino-8f0ddddab7e1
 
 https://forum.arduino.cc/t/simple-hid-attack-project-for-windows-pcs/419511
+
+Link to hide HID : https://gist.github.com/mykeels/a271683f9c37a7919297d5df90db648a
+
+https://github.com/int0/hidswitch
+
+https://github.com/pelya/android-keyboard-gadget/issues/9
+
+https://github.com/tigoe/hid-examples/blob/main/HIDEnable/HIDEnable.ino
