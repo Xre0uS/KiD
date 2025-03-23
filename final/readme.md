@@ -5,3 +5,4 @@ Items:
 2. ```0.exe``` the payload.
 4. ```kid_msf_auto.rc``` script to fill in all msfconsole parameters, also calls ```auto_migrate.rc``` to migrate process after session opens. run it as ```msfconsole -r /home/kali/kid_msf_auto.rc``` in terminal.
 5. ```auto_migrate.rc``` to be ran after a session open, migrate process to powershell.exe. Payload will be deleted after migration.
+6. ```payload_source.cpp`` source code of the payload.
