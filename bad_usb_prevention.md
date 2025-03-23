@@ -15,6 +15,8 @@ https://forums.ivanti.com/s/article/Preventing-USB-Device-Firmware-Attacks-BadUS
 
 https://create.arduino.cc/projecthub/danionescu/arduino-keyboard-exploit-demo-hid-and-prevention-f2f582
 
+https://stackoverflow.com/questions/38786343/prevent-usbhid-from-autoloading-when-usb-hid-device-is-plugged-in
+
 Link to hacking a computer using Arduino:
 https://medium.com/csg-govtech/hacking-a-computer-using-arduino-8f0ddddab7e1
 
