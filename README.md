@@ -80,7 +80,7 @@ The code to flash to Digispark will be different but the remaining steps after f
 
 ## Antivirus evasion
 
-**VirusTotal**: VirusTotal is malware analyser that uses a number of antivirus scanners from different cybersecurity vendors. Our payload was only detected by ../.. antivirus softwares. (TO ADD CLOSER TO PRESENTATION DATE)
+**VirusTotal**: VirusTotal is malware analyser that uses a number of antivirus scanners from different cybersecurity vendors. Our payload was only detected by ../.. antivirus engines. (TO ADD CLOSER TO PRESENTATION DATE)
 
 **AVG:**  AVG antivirus can be evaded as per the demo video.   
   
