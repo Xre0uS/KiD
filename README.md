@@ -121,7 +121,7 @@ Although many antivirus solutions can be evaded as of writing, we expect this sp
 Yes, you can bypass some of them but you don't know that you will bypass the one you actually have.
 
 **Display protocol statistic:** Command Prompt run as administrator to display protocol statistic and current TCP/IP network connections.
-(reference/https://www.crackitdown.com/2018/12/detect-malware-or-keylogger-on-windows-html/)
+[reference](https://www.crackitdown.com/2018/12/detect-malware-or-keylogger-on-windows-html/)
 
 **List of connections:** Netstat -a, -b, -bno
 
@@ -129,15 +129,9 @@ Yes, you can bypass some of them but you don't know that you will bypass the one
 
 **To check all the connections:** Netstat -a
 
-![netstat2](https://user-images.githubusercontent.com/82925962/122868367-73041a00-d35d-11eb-8223-f83b597384e4.jpg)
-
 **You want to know which applications is connected to the internet:** Netstat -b
 
-![netstat3](https://user-images.githubusercontent.com/82925962/122868377-75667400-d35d-11eb-9f93-3723b0ae0237.jpg)
-
 **To know the process Id type:** Netstat -bno
-
-![netstat4](https://user-images.githubusercontent.com/82925962/122868385-77c8ce00-d35d-11eb-84c1-21c349e28252.jpg)
 
 **Ip lookup:** To know which connection is the keylooger you need to look in the ip address lookup manully, search ip address by google to get the clear idea. Similarly search by the application name to know which applications is working as rat/keylogger.
 
@@ -151,16 +145,15 @@ Yes, you can bypass some of them but you don't know that you will bypass the one
 
 **Advanced proctection MalwareFox Anti-Malware:** Free fuctional trial for 14 days for advanced malware detection and removal, fast & light won't slow down computer and browser cleanup(only disinfect). 
 
-For better protection need to but MalwareFox Premium for advanced malware detection and removal, browser cleanup, rootkits and rootkits proctection, ransomware proctection, realtime protection, fast & light, stop zero day exploit, anti-logger, intelligently works in background and premium support. (reference/https://www.malwarefox.com/)
+For better protection need to but MalwareFox Premium for advanced malware detection and removal, browser cleanup, rootkits and rootkits proctection, ransomware proctection, realtime protection, fast & light, stop zero day exploit, anti-logger, intelligently works in background and premium support. [reference](https://www.malwarefox.com/)
 
 ![malwareFox](https://user-images.githubusercontent.com/82925962/122866413-7b0e8a80-d35a-11eb-8fe0-ceb6b9750773.jpg)
 
-**Others Anti-Malware:** Malwarebytes,McAfee,BitDefender,Norton,Panda & BullGuard (reference/https://www.antivirusguide.com/best-malware-protection/?lp=default&utm_source=google&utm_medium=cpc&sgv_medium=search&utm_campaign=6478205166&utm_content=97940972094&utm_term=malware%20protection&cid=425328699728&pl=&feeditemid=&targetid=aud-755007040539:kwd-63356560&mt=b&network=g&device=c&adpos=&p1=&p2=&geoid=9062519&gclid=CjwKCAjw8cCGBhB6EiwAgORey6sYtN8PB8XE7e6PDCd4_nAJharS2IVbi4zy5UYe---Ly4zKLdeG3hoC3RUQAvD_BwE)
+**Others Anti-Malware:** Malwarebytes,McAfee,BitDefender,Norton,Panda & BullGuard [reference](https://www.antivirusguide.com/best-malware-protection/?lp=default&utm_source=google&utm_medium=cpc&sgv_medium=search&utm_campaign=6478205166&utm_content=97940972094&utm_term=malware%20protection&cid=425328699728&pl=&feeditemid=&targetid=aud-755007040539:kwd-63356560&mt=b&network=g&device=c&adpos=&p1=&p2=&geoid=9062519&gclid=CjwKCAjw8cCGBhB6EiwAgORey6sYtN8PB8XE7e6PDCd4_nAJharS2IVbi4zy5UYe---Ly4zKLdeG3hoC3RUQAvD_BwE)
 
-To better protect your computer most of the Antivirus Software need to buy (reference/https://www.security.org/antivirus/do-you-need-antivirus/)
+To better protect your computer most of the Antivirus Software need to buy [reference](https://www.security.org/antivirus/do-you-need-antivirus/)
 
-**Keyscrambler:** Keyscrambler is the most effective anti-keylogging software(reference/https://www.qfxsoftware.com/)
-![keyscrambler](https://user-images.githubusercontent.com/82925962/122867374-f91f6100-d35b-11eb-9595-1a5774a177e0.jpg)
+**Keyscrambler:** Keyscrambler is also one of the most effective anti-keylogging software[reference](https://www.qfxsoftware.com/)
 
 **Use task manager to detect keylogger:** Navigate to Windows logon application, if it has duplication entry which sound unusual like Windows logon (1) it mean someone else is logon to your Windows system so right click and end the program.
 
@@ -174,7 +167,7 @@ Also check under Start up tab to see if any suspicious-looking programs in the b
 
 ![control panel](https://user-images.githubusercontent.com/82925962/122867751-91b5e100-d35c-11eb-9ed5-5cf9173bed32.jpg)
 
-**To prevent unauthorised usb device:** Run Local Group Policy Editor (gpedit) -> expand Administrative Templates -> expand System -> Device Installation Restrictions and configure the settings to prevent unauthorised usb device.(reference/https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceinstanceids)
+**To prevent unauthorised usb device:** Run Local Group Policy Editor (gpedit) -> expand Administrative Templates -> expand System -> Device Installation Restrictions and configure the settings to prevent unauthorised usb device.[reference](https://docs.microsoft.com/en-us/windows/client-management/mdm/policy-csp-deviceinstallation#deviceinstallation-allowinstallationofmatchingdeviceinstanceids)
 
 ![usb](https://user-images.githubusercontent.com/82925962/123115189-7dfc9e80-d472-11eb-9663-948c0930f0a2.jpg)
 
