@@ -17,6 +17,10 @@ The internal keyboard PCB is connected to the USB hub, and digispark is also con
 The internal connections and layout of the completed keyboard are as follows:
 ![alt text](resources/keyboard_internal.png)
 
+## Programming Digispark
+
+To program Digispark to deliver the keystrokes we wanted, we need an IDE to write to Digispark. We can use either the Arduino IDE or the PIO extenstion in Visual Studio Code. After the desired code are written into the IDE, press the upload button in the IDE and connect Digispark into the computer. The sorce code of the Digispark keystrokes will be explained at a later section.
+
 ## Digispark bootloader
 
 By default, the Digispark have a 5 second programming delay once plugged in for uploading new code. This has caused issues for Windows to fail to recognise Digispark as a USB device when it is connected to the hub with another keyboard, a new bootloader is needed to remove the delay, removing the delay also allows the attack to be carried out faster.
@@ -64,7 +68,7 @@ The first stage of the payload can be found under ```final/1.ps1```, the script 
 We also need to migrate the process once the meterpreter shell opens so that the payload can be deleted by the powershell script, this can be done automatically using a ```.rc``` script in Kali. The script can be found under ```final/auto_migrate.rc```. To simplify the steps of preparing the reverse handler in Kali, another ```.rc``` script can be used, which can be found under ```final/kid_msf_auto.rc```, this script also calls the auto migrate script so both steps can be done at once.     
 ![alt text](resources/msf_auto_script.png)   
 
-Finally, flash Digispark using the appropriate code using the [steps laid out earlier](#digispark-bootloader). In Kali, install and start Apache service, then place ```0.exe``` and ```1.exe``` under ```/var/www/html```, and place ```kid_msf_auto.rc``` and ```auto_migrate.rc``` under ```/home/kali```. In a terminal, start the reverse shell handler by entering
+Finally, flash Digispark using the appropriate code using the [steps explained earlier](#programming-digispark), they keystrokes will open a hidden powershell instance and enter the commands to execute the first stage of the attack. In Kali, install and start Apache service, then place ```0.exe``` and ```1.exe``` under ```/var/www/html```, and place ```kid_msf_auto.rc``` and ```auto_migrate.rc``` under ```/home/kali```. In a terminal, start the reverse shell handler by entering
 ```
 msfconsole -q -r /home/kali/kid_msf_auto.rc
 ```
