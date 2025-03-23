@@ -29,3 +29,7 @@ https://github.com/int0/hidswitch
 https://github.com/pelya/android-keyboard-gadget/issues/9
 
 https://github.com/tigoe/hid-examples/blob/main/HIDEnable/HIDEnable.ino
+
+Disable keyboard: https://www.intowindows.com/5-ways-to-disable-keyboard-in-windows-10/
+
+https://www.businessinsider.com/how-to-disable-keyboard-windows-10
