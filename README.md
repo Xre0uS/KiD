@@ -62,7 +62,7 @@ To deliver the payload, we chose to use a 2-stage payload, with the first stage 
 The first stage of the payload can be found under ```final/1.ps1```, the script downloads the ```.exe``` file that we made earlier and run it, which can be found under ```final/0.exe```. the payload then deletes the ```.exe``` file after it has been run as to not leave any evidence.
 ![alt text](resources/powershell_script.png)   
 
-We also need to migrate the process once the meterpreter shell opens so that the payload can be deleted by the powershell script, this can be done automatically using a ```.rc``` script in Kali. The script can be found under ```final/auto_migrate.rc```. To simplify the steps of preparing the reverse handler in Kali, another ```.rc``` script can be used, which can be found under ```final/kid_msf_auto.rc```, this script also calls the auto migrate script so both steps can be done at once.
+We also need to migrate the process once the meterpreter shell opens so that the payload can be deleted by the powershell script, this can be done automatically using a ```.rc``` script in Kali. The script can be found under ```final/auto_migrate.rc```. To simplify the steps of preparing the reverse handler in Kali, another ```.rc``` script can be used, which can be found under ```final/kid_msf_auto.rc```, this script also calls the auto migrate script so both steps can be done at once.     
 ![alt text](resources/msf_auto_script.png)   
 
 Finally, flash Digispark using the appropriate code using the [steps laid out earlier](#digispark-bootloader). In Kali, install and start Apache service, then place ```0.exe``` and ```1.exe``` under ```/var/www/html```, and place ```kid_msf_auto.rc``` and ```auto_migrate.rc``` under ```/home/kali```. In a terminal, start the reverse shell handler by entering
@@ -86,11 +86,11 @@ The code to flash to Digispark will be different but the remaining steps after f
 ![alt text](resources/avast_evasion.png)   
 
  
-**Windows Defender:**  in some cases, we were able to evade it, although it is not consistent, most of the time the payload can be downloaded but a meterpreter session cannot be opened without being detected. 
+**Windows Defender:**  in some cases, we were able to evade it, although it is not consistent, most of the time the payload can be downloaded but a meterpreter session cannot be opened without being detected.   
 ![alt text](resources/wdefender_evasion.png)   
 
 
-**Malwarebytes:**  Malwarebytes can be evaded.
+**Malwarebytes:**  Malwarebytes can be evaded.   
 ![alt text](resources/malwarebytes_evasion.png)   
 
 
