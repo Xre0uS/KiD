@@ -13,6 +13,8 @@ https://clario.co/blog/how-to-prevent-usb-attacks/
 
 https://forums.ivanti.com/s/article/Preventing-USB-Device-Firmware-Attacks-BadUSB-Using-Lumension-Endpoint-Security-FAQ?language=en_US
 
+https://create.arduino.cc/projecthub/danionescu/arduino-keyboard-exploit-demo-hid-and-prevention-f2f582
+
 Link to hacking a computer using Arduino:
 https://medium.com/csg-govtech/hacking-a-computer-using-arduino-8f0ddddab7e1
 
