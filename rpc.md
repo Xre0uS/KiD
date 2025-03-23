@@ -26,9 +26,9 @@
     
    - `$ComputerName = " NAME SEEN IN SYSINFO "`
   
-      Image is seen below:
+    Image is seen below:
 
-      ![alt text](resources/rpc_images/Variable.PNG)
+    ![alt text](resources/rpc_images/Variable.PNG)
       
 4. Once you have done this, You will need to check if you require Network Level Authentication(NLA).
     Use the Following command to check if you do not know:-
